@@ -3,7 +3,7 @@
 
 ## About SQLCrafter
 
-Welcome to SQLCrafter, your versatile companion for managing relational databases effortlessly! SQLCrafter is a Java Jsp Servlet project designed to streamline the visualization of tables and empower users with seamless CRUD (Create, Read, Update, Delete) operations within their database tables.
+Welcome to SQLCrafter, your versatile companion for managing relational databases effortlessly! SQLCrafter is a Java (jdk1.8) Jsp Servlet project designed to streamline the visualization of tables and empower users with seamless CRUD (Create, Read, Update, Delete) operations within their database tables.
 
 ### Key Features:
 
