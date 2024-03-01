@@ -2,7 +2,7 @@
     <wb-module deploy-name="SQLCrafer">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="SQLCrafer"/>
-        <property name="java-output-path" value="/SQLCrafer/build/classes"/>
+        <property name="context-root" value="SQLCrafter"/>
+        <property name="java-output-path" value="/SQLCrafter/build/classes"/>
     </wb-module>
 </project-modules>
