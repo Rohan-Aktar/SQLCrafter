@@ -20,7 +20,7 @@ public class demo extends HttpServlet {
     public demo() {
         super();
         // TODO Auto-generated constructor stub
-        System.out.println("DEMO");
+        System.out.println("Maven build DEMO");
     }
 
 	/**
