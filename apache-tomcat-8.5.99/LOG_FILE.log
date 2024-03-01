@@ -1,0 +1,52 @@
+20:22:50.825 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - I
+20:22:50.837 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - n
+20:22:50.837 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - s
+20:22:50.837 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - i
+20:22:50.837 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - d
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - e
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream -  
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - d
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - o
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - G
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - e
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - t
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - (
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - )
+20:22:50.838 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - 
+
+20:28:37.831 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - I
+20:28:37.842 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - n
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - s
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - i
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - d
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - e
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream -  
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - d
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - o
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - G
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - e
+20:28:37.843 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - t
+20:28:37.844 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - (
+20:28:37.844 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - )
+20:28:37.844 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - 
+
+20:28:49.044 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - I
+20:28:49.045 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - n
+20:28:49.045 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - s
+20:28:49.045 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - i
+20:28:49.045 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - d
+20:28:49.045 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - e
+20:28:49.045 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream -  
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - d
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - o
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - G
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - e
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - t
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - (
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - )
+20:28:49.046 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - 
+
+20:33:16.109 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside doGet()
+20:33:25.100 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - Inside doGet()
+20:33:34.310 [http-nio-8080-exec-5] INFO  Crafter.Log4jOutputStream - Inside doGet()
+20:33:39.616 [http-nio-8080-exec-6] INFO  Crafter.Log4jOutputStream - Inside doGet()
