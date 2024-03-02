@@ -23,6 +23,8 @@ public class demo extends HttpServlet {
         Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
 
         // Set Log4jOutputStream as the standard output stream
+        //admin  sqlcrafter123.
+        
         System.setOut(new PrintStream(log4jOutputStream, true));
     }
 

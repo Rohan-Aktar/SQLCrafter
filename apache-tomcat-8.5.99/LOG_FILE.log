@@ -50,3 +50,11 @@
 20:33:25.100 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - Inside doGet()
 20:33:34.310 [http-nio-8080-exec-5] INFO  Crafter.Log4jOutputStream - Inside doGet()
 20:33:39.616 [http-nio-8080-exec-6] INFO  Crafter.Log4jOutputStream - Inside doGet()
+20:53:27.684 [http-nio-8080-exec-6] INFO  Crafter.Log4jOutputStream - Inside doGet()
+20:53:39.290 [http-nio-8080-exec-9] INFO  Crafter.Log4jOutputStream - Inside doGet()
+20:54:07.153 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside doGet()
+18:24:44.935 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Maven build DEMO
+18:24:44.944 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Initializing Log4j in servlet...
+18:24:45.725 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Inside doGet()
+18:25:01.777 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside doGet()
+18:25:07.334 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - Inside doGet()
