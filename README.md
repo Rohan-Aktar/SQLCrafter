@@ -1,4 +1,4 @@
-# SQLCrafter
+# SQLCrafter [![Java CI with Maven](https://github.com/dootamroy/SQLCrafter/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/dootamroy/SQLCrafter/actions/workflows/maven.yml)
 
 
 ## About SQLCrafter
