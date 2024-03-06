@@ -67,8 +67,12 @@
                     </form>
 
                     <!-- Display error message if login fails -->
-                    <c:if test="${param.error == 'invalid'}">
-                        <p class="text-danger mt-3">Invalid username or password.</p>
+                    <c:if test="${requestScope.error == 'invalid'}">
+                        <!-- <p class="text-danger mt-3">Invalid username or password.</p> -->
+                            <script>
+        						// Open a small window with error.jsp content
+        						window.open("${pageContext.request.contextPath}/error.jsp", "errorWindow", "width=400,height=200");
+   	 						</script>
                     </c:if>
                 </div>
             </div>
