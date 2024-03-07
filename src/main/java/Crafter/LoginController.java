@@ -56,13 +56,13 @@ public class LoginController extends HttpServlet {
          // Invalid login, redirect back to login page
     	 System.out.println("LoginController()..  User Invalidated, returning to login...");
     	 
-         //response.sendRedirect("login.jsp?error=invalid");
+         response.sendRedirect("login.jsp?error=invalid");
          
          //request.setAttribute("loginError", true);
 
          // Forward the request to error.jsp
-         RequestDispatcher dispatcher = request.getRequestDispatcher("/login.jsp?error=invalid");
-         dispatcher.forward(request, response);
+         //RequestDispatcher dispatcher = request.getRequestDispatcher("/login.jsp?error=invalid");
+         //dispatcher.forward(request, response);
      }
  }
 }
