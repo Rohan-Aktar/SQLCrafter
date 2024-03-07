@@ -7,9 +7,13 @@ import java.sql.SQLException;
 
 public class DBConnectionClass {
     
-    private static final String JDBC_URL = "jdbc:mysql://sqlcrafter.catviwqp0i8m.ap-south-1.rds.amazonaws.com:3306/Crafter";
+    /*private static final String JDBC_URL = "jdbc:mysql://sqlcrafter.catviwqp0i8m.ap-south-1.rds.amazonaws.com:3306/Crafter";
     private static final String USERNAME = "admin";
-    private static final String PASSWORD = "sqlcrafter123";
+    private static final String PASSWORD = "sqlcrafter123";*/
+    
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/Crafter";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "rocketman123";
 
     public static Connection getConnection() {
         Connection connection = null;
