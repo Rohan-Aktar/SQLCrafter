@@ -9,8 +9,7 @@ CREATE TABLE  Crafter.users (
 );
 
 insert into Crafter.users (username, password,email)values('DOOTAM','Dootam123','xyz@gmail.com');
+insert into Crafter.users (username, password,email)values('ROHAN','Rohan123','xyzRohan@gmail.com');
 
 select * from Crafter.users;
-
-
 

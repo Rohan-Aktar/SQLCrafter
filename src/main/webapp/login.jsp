@@ -27,7 +27,7 @@
         }
 
         .card-header {
-            background-color: #007bff;
+            background-color: #17a2b8;
             color: #fff;
             border-radius: 10px 10px 0 0;
             text-align: center;
@@ -35,12 +35,12 @@
         }
 
         .btn-primary {
-            background-color: #007bff;
+            background-color: #17a2b8;
             border: none;
         }
 
         .btn-primary:hover {
-            background-color: #0056b3;
+            background-color: #4fbfd4;
         }
     </style>
 </head>
@@ -68,10 +68,10 @@
 
                     <!-- Display error message if login fails -->
                     <c:if test="${requestScope.error == 'invalid'}">
-                        <!-- <p class="text-danger mt-3">Invalid username or password.</p> -->
+                        <p class="text-danger mt-3">Invalid username or password.</p>
                             <script>
         						// Open a small window with error.jsp content
-        						window.open("${pageContext.request.contextPath}/error.jsp", "errorWindow", "width=400,height=200");
+        						//window.open("${pageContext.request.contextPath}/error.jsp", "errorWindow", "width=400,height=200");
    	 						</script>
                     </c:if>
                 </div>
