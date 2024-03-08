@@ -23,6 +23,9 @@
             background-color: #343a40; /* Set a dark color for the footer */
             color: #ffffff; /* Set text color to white */
         }
+        
+    }
+    
     </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
@@ -59,13 +62,28 @@
         </div>
     </nav>
 
+
+
+
     <!-- Page Content -->
     <div class="container mt-4">
         <h2>Welcome, <%= user.getUsername() %>!</h2>
         <p>This is your welcome page.</p>
 
+
+		<!-- Display Database Information -->
+        <div id="databaseInfo"></div>
+        <!-- Display Database Information -->
+        
+        
         <!-- Add additional content or links as needed -->
     </div>
+    
+    
+    <!-- Page Content -->
+    
+    
+    
 
     <!-- Bootstrap Footer -->
     <footer class="footer mt-auto py-3">
@@ -76,7 +94,44 @@
 
     <!-- Latest Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
+<script>
+    // Call the DatabaseInfoServlet and update the #databaseInfo div with the result
+$(document).ready(function() {
+    $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
+        var schemas = data; // No need for JSON.parse here
+        var html = "<h4 class='mb-4 text-light'>Database Information</h4>";
+        html += "<table class='table table-bordered table-light table-striped'>";
+        html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th></tr></thead>";
+        html += "<tbody>";
+
+        for (var i = 0; i < schemas.length; i++) {
+            html += "<tr><td>" + schemas[i] + "</td></tr>";
+        }
+
+        html += "</tbody></table>";
+        $("#databaseInfo").html(html);
+    });
+});
+
+    // Logout using AJAX to avoid a full page reload
+    /*$("#logoutForm").submit(function(event) {
+        event.preventDefault();
+        $.post("${pageContext.request.contextPath}/logout", function() {
+            window.location.href = "${pageContext.request.contextPath}/login.jsp";
+        });
+    });*/
+</script>
+
+
+
+
+
+
+    
+    
 <%
     } catch (Exception e) {
         // Handle exceptions (e.g., logging, redirecting to an error page)
