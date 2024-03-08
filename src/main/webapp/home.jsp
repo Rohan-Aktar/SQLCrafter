@@ -70,11 +70,13 @@
         <h2>Welcome, <%= user.getUsername() %>!</h2>
         <p>This is your welcome page.</p>
 
-
+		<br>
+        <br>
 		<!-- Display Database Information -->
         <div id="databaseInfo"></div>
         <!-- Display Database Information -->
-        
+        <br>
+        <br>
         
         <!-- Add additional content or links as needed -->
     </div>
@@ -102,7 +104,7 @@
 $(document).ready(function() {
     $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
         var schemas = data; // No need for JSON.parse here
-        var html = "<h4 class='mb-4 text-light'>Database Information</h4>";
+        var html = "<h4 class='mb-4 text-dark'>Database Information</h4>";
         html += "<table class='table table-bordered table-light table-striped'>";
         html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th></tr></thead>";
         html += "<tbody>";
