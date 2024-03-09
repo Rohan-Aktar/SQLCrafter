@@ -7,26 +7,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome Page</title>
-    <!-- Latest Bootstrap CSS -->
+   <!-- Latest Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Add your custom styles here */
-        body {
-            background-color: #f8f9fa; /* Set a light background color */
-        }
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.21.0/font/bootstrap-icons.css" rel="stylesheet">
 
-        .navbar {
-            background-color: #17a2b8; /* Set a blue color for the header */
-        }
+    
+<style>
+    /* Add your custom styles here */
+    body {
+        background-color: #f8f9fa; /* Set a light background color */
+    }
 
-        .footer {
-            background-color: #343a40; /* Set a dark color for the footer */
-            color: #ffffff; /* Set text color to white */
-        }
-        
+    .navbar {
+        background-color: #17a2b8; /* Set a blue color for the header */
+    }
+
+    .footer {
+        background-color: #343a40; /* Set a dark color for the footer */
+        color: #ffffff; /* Set text color to white */
     }
     
-    </style>
+    .btn-custom-color {
+        background-color: #f8f9fa; /* Set a light background color */
+        color: #ffffff; /* Text color (white in this example) */
+    }
+    
+</style>
+
 </head>
 <body class="d-flex flex-column min-vh-100">
 
@@ -69,7 +77,6 @@
     <div class="container mt-4">
         <h2>Welcome, <%= user.getUsername() %>!</h2>
         <p>This is your welcome page.</p>
-
 		<br>
         <br>
 		<!-- Display Database Information -->
@@ -100,23 +107,37 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 <script>
-    // Call the DatabaseInfoServlet and update the #databaseInfo div with the result
-$(document).ready(function() {
-    $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
-        var schemas = data; // No need for JSON.parse here
-        var html = "<h4 class='mb-4 text-dark'>Database Information</h4>";
-        html += "<table class='table table-bordered table-light table-striped'>";
-        html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th></tr></thead>";
-        html += "<tbody>";
+    // Function to load database information
+    function loadDatabaseInfo() {
+        // Display loader while refreshing data
+        $("#databaseInfo").html("<div class='text-center'><div class='spinner-border text-primary' role='status'></div></div>");
 
-        for (var i = 0; i < schemas.length; i++) {
-            html += "<tr><td>" + schemas[i] + "</td></tr>";
-        }
+        // Call the DatabaseInfoServlet and update the #databaseInfo div with the result
+        $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
+            var schemas = data; // No need for JSON.parse here
+            var html = "<h4 class='mb-4 text-dark'>Database Information";
 
-        html += "</tbody></table>";
-        $("#databaseInfo").html(html);
+            // Add reload button with background color
+            html += "<button class='btn btn-dark ms-4' onclick='loadDatabaseInfo()'>Reload</button>";
+
+            html += "</h4>";
+            html += "<table class='table table-bordered table-light table-striped'>";
+            html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th></tr></thead>";
+            html += "<tbody>";
+
+            for (var i = 0; i < schemas.length; i++) {
+                html += "<tr><td>" + schemas[i] + "</td></tr>";
+            }
+
+            html += "</tbody></table>";
+            $("#databaseInfo").html(html);
+        });
+    }
+
+    // Initial load on document ready
+    $(document).ready(function() {
+        loadDatabaseInfo();
     });
-});
 
     // Logout using AJAX to avoid a full page reload
     /*$("#logoutForm").submit(function(event) {
@@ -126,6 +147,8 @@ $(document).ready(function() {
         });
     });*/
 </script>
+
+
 
 
 
