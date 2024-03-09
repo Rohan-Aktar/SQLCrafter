@@ -127,7 +127,7 @@
 
             for (var i = 0; i < schemas.length; i++) {
                 html += "<tr><td class='col-6'>" + schemas[i] + "</td>";
-                html += "<td class='col-2 text-center'><button class='btn btn-secondary' onclick='redirectToTables(\"" + schemas[i] + "\")'>View Tables</button></td>";
+                html += "<td class='col-2 text-center'><button class='btn btn-primary' onclick='redirectToTables(\"" + schemas[i] + "\")'>View Tables</button></td>";
                 html += "<td class='col-2 text-center'><button class='btn btn-danger' onclick='deleteSchema(\"" + schemas[i] + "\")'>Delete Schema</button></td></tr>";
             }
 
@@ -138,7 +138,7 @@
 
     // Redirect to tables.jsp with the selected schema name
     function redirectToTables(schemaName) {
-        window.location.href = "${pageContext.request.contextPath}/tables.jsp?schema=" + encodeURIComponent(schemaName);
+        window.location.href = "${pageContext.request.contextPath}/tables?schema=" + encodeURIComponent(schemaName);
     }
 
     // Function to handle schema deletion
