@@ -76,7 +76,7 @@
     <!-- Page Content -->
     <div class="container mt-4">
         <h2>Welcome, <%= user.getUsername() %>!</h2>
-        <p>This is your welcome page.</p>
+        <p>Welcome to SQLCrafter, your versatile companion for managing relational databases effortlessly! SQLCrafter is a Java (jdk1.8) Jsp Servlet project designed to streamline the visualization of tables and empower users with seamless CRUD (Create, Read, Update, Delete) operations within their database tables.</p>
 		<br>
         <br>
 		<!-- Display Database Information -->
