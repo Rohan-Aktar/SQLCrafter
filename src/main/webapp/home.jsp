@@ -121,12 +121,14 @@
             html += "<button class='btn btn-dark ms-4' onclick='loadDatabaseInfo()'>Reload</button>";
 
             html += "</h4>";
-            html += "<table class='table table-bordered table-light table-striped'>";
-            html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th></tr></thead>";
+            html += "<table class='table table-bordered table-light table-striped table-hover'>";
+            html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th><th scope='col'>View</th><th scope='col'>Delete</th></tr></thead>";
             html += "<tbody>";
 
             for (var i = 0; i < schemas.length; i++) {
-                html += "<tr><td>" + schemas[i] + "</td></tr>";
+                html += "<tr><td class='col-6'>" + schemas[i] + "</td>";
+                html += "<td class='col-2 text-center'><button class='btn btn-secondary' onclick='redirectToTables(\"" + schemas[i] + "\")'>View Tables</button></td>";
+                html += "<td class='col-2 text-center'><button class='btn btn-danger' onclick='deleteSchema(\"" + schemas[i] + "\")'>Delete Schema</button></td></tr>";
             }
 
             html += "</tbody></table>";
@@ -134,19 +136,33 @@
         });
     }
 
+    // Redirect to tables.jsp with the selected schema name
+    function redirectToTables(schemaName) {
+        window.location.href = "${pageContext.request.contextPath}/tables.jsp?schema=" + encodeURIComponent(schemaName);
+    }
+
+    // Function to handle schema deletion
+    	function deleteSchema(schemaName) {
+    	    // Display a confirmation dialog
+    	    var confirmDelete = window.confirm("Are you sure you want to delete schema: " + schemaName + "?");
+
+    	    // Check user's response
+    	    if (confirmDelete) {
+    	        // User clicked 'OK', you can implement the logic to delete the schema here
+    	        // For now, let's just display an alert
+    	        alert("Deleting schema: " + schemaName);
+    	    } else {
+    	        // User clicked 'Cancel', do nothing or provide feedback
+    	        alert("Deletion cancelled for schema: " + schemaName);
+    	    }
+    	}
+
     // Initial load on document ready
     $(document).ready(function() {
         loadDatabaseInfo();
     });
-
-    // Logout using AJAX to avoid a full page reload
-    /*$("#logoutForm").submit(function(event) {
-        event.preventDefault();
-        $.post("${pageContext.request.contextPath}/logout", function() {
-            window.location.href = "${pageContext.request.contextPath}/login.jsp";
-        });
-    });*/
 </script>
+
 
 
 
