@@ -41,6 +41,7 @@
 <%
     try {
         // Retrieve the user from the session
+        System.out.println("INSIDE HOME.JSP");
         HttpSession crafterSession = request.getSession();
         UserModel user = (UserModel) crafterSession.getAttribute("user");
 
@@ -176,7 +177,7 @@
 <%
     } catch (Exception e) {
         // Handle exceptions (e.g., logging, redirecting to an error page)
-        e.printStackTrace();
+        e.printStackTrace(System.out);
         // response.sendRedirect("error.jsp");
     }
 %>

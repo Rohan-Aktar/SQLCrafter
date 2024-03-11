@@ -27,7 +27,7 @@ public class LoginController extends HttpServlet {
         try {
             System.out.println("LoginController().. ");
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace(System.out);
         }
     }
 	

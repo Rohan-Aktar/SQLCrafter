@@ -15,6 +15,9 @@
 
 <%
     try {
+    	
+    	System.out.println("INSIDE tables.JSP");
+    	
         // Retrieve tables from the request attribute
         List<String> tables = (List<String>) request.getAttribute("tables");
 
@@ -33,7 +36,9 @@
 <%
     } catch (Exception e) {
         // Handle exceptions (e.g., logging, redirecting to an error page)
-        e.printStackTrace();
+        System.out.println(e);
+        e.printStackTrace(System.out);
+        //e.printStackTrace();
         
     }
 %>
