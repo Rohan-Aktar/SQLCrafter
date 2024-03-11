@@ -92,8 +92,10 @@
     // Function to load database information
     function loadDatabaseInfo() {
         // Display loader while refreshing data
-        $("#databaseInfo").html("<div class='text-center'><div class='spinner-border text-primary' role='status'></div></div>");
-
+        $("#databaseInfo").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
+		
+        setTimeout(function() {  //only for the delay..
+        	
         // Call the DatabaseInfoServlet and update the #databaseInfo div with the result
         $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
             var schemas = data; // No need for JSON.parse here
@@ -116,6 +118,8 @@
             html += "</tbody></table>";
             $("#databaseInfo").html(html);
         });
+        
+        },1000); //1000 ms delay.
     }
 
     // Redirect to tables.jsp with the selected schema name
