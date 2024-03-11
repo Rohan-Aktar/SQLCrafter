@@ -52,27 +52,9 @@
         }
 %>
 
-    <!-- Bootstrap Header -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">SQL Crafter</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Welcome, <%= user.getUsername() %></a>
-                    </li>
-                    <li class="nav-item">
-                        <form action="${pageContext.request.contextPath}/logout" method="post" class="d-inline">
-                            <input type="submit" class="btn btn-link text-white nav-link" value="Logout">
-                        </form>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-
-
+    <!-- Include the header -->
+    <jsp:include page="header.jsp" />
 
     <!-- Page Content -->
     <div class="container mt-4">
@@ -176,6 +158,7 @@
 <%
     } catch (Exception e) {
         // Handle exceptions (e.g., logging, redirecting to an error page)
+         System.out.println("INSIDE HOME.JSP EXCP");
         e.printStackTrace(System.out);
         // response.sendRedirect("error.jsp");
     }

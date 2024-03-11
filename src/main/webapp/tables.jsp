@@ -19,19 +19,19 @@
     	System.out.println("INSIDE tables.JSP");
     	
         // Retrieve tables from the request attribute
-        List<String> tables = (List<String>) request.getAttribute("tables");
+       // List<String> tables = (List<String>) request.getAttribute("tables");
 
         // Display tables here
 %>
 
-    <div class="container mt-4">
-        <h2>Tables in Schema: <%= request.getParameter("schema") %></h2>
+    <!--  <div class="container mt-4">
+        <h2>Tables in Schema: <%= //request.getParameter("schema") %></h2>
         <ul class="list-group">
-            <% for (String table : tables) { %>
-                <li class="list-group-item"><%= table %></li>
-            <% } %>
+            <% //for (String table : tables) { %>
+                <li class="list-group-item"><%= //table %></li>
+            <%// } %>
         </ul>
-    </div>
+    </div> -->
 
 <%
     } catch (Exception e) {
