@@ -9,14 +9,20 @@
         // Retrieve the user from the request attribute
         HttpSession crafterSession1 = request.getSession();
         UserModel userCrafter = (UserModel) crafterSession1.getAttribute("user");
-
+		
+        String strUser = "";
+        boolean sessionExistFlag=false;
         // Check if the user is authenticated
         if (userCrafter == null) {
             //response.sendRedirect("login.jsp");
-            return;
+            //return;
+        	strUser="Invalid User";
+            
         }
         else{
         	System.out.println("Inside header.jsp User::: "+ userCrafter.getUsername());
+        	strUser=userCrafter.getUsername();
+        	sessionExistFlag=true;
         }
         
         
@@ -28,13 +34,21 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="demo">Welcome, <%= userCrafter.getUsername() %></a>
+                    <a class="nav-link text-white" href="demo">Welcome, <%= strUser %></a>
                 </li>
+                <%if(sessionExistFlag){ %>
                 <li class="nav-item">
                     <form action="${pageContext.request.contextPath}/logout" method="post" class="d-inline">
                         <input type="submit" class="btn btn-link text-white nav-link" value="Logout">
                     </form>
                 </li>
+                <%}else{ %>
+                <li class="nav-item">
+                    <form action="${pageContext.request.contextPath}/login" method="post" class="d-inline">
+                        <input type="submit" class="btn btn-link text-white nav-link" value="Login">
+                    </form>
+                </li>
+                <%} %>
             </ul>
         </div>
     </div>
