@@ -47,10 +47,10 @@ public class LoginController extends HttpServlet {
     	 
          HttpSession session = request.getSession();
          session.setAttribute("user", user);
-         //response.sendRedirect("home.jsp"); // Redirect to a welcome page
+         response.sendRedirect("home.jsp"); // Redirect to a welcome page
          
-         RequestDispatcher dispatcher = request.getRequestDispatcher("/home.jsp");
-         dispatcher.forward(request, response);
+         //RequestDispatcher dispatcher = request.getRequestDispatcher("/home.jsp");
+         //dispatcher.forward(request, response);
          
      } else {
          // Invalid login, redirect back to login page

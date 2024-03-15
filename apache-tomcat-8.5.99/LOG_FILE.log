@@ -7006,3 +7006,471 @@
 2024-03-15 15:05:14.088 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Connecting to DB...
 2024-03-15 15:05:14.107 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - connected to DB...
 2024-03-15 15:05:14.111 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:21:25.619 [localhost-startStop-1] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-03-15 18:21:25.630 [localhost-startStop-1] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/logout,/login.jsp
+2024-03-15 18:21:43.611 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:21:43.612 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:21:43.612 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:21:44.132 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:21:44.139 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:21:44.140 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:21:44.140 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:22:27.244 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-03-15 18:22:27.245 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-03-15 18:22:27.245 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:22:27.245 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:22:27.249 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:22:27.744 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:22:27.744 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:22:27.744 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:22:27.744 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:22:27.744 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:22:27.852 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:22:27.853 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:22:27.857 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:22:27.933 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:22:27.933 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:22:29.404 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:22:29.404 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:22:29.405 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:22:29.405 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:22:29.435 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:22:29.462 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:23:49.882 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-03-15 18:23:49.890 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/logout,/login.jsp
+2024-03-15 18:23:55.280 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:23:55.281 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:23:55.282 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - java.lang.NullPointerException
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.doFilter(SessionFilter.java:99)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+2024-03-15 18:23:55.283 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:934)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1698)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+2024-03-15 18:23:55.284 [http-nio-8080-exec-7] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-03-15 18:25:01.976 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-03-15 18:25:01.985 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/logout,/login.jsp
+2024-03-15 18:25:17.216 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:25:17.216 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:25:17.216 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:25:17.226 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:25:17.232 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:25:17.232 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:25:17.232 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:25:22.759 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-03-15 18:25:22.760 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-03-15 18:25:22.760 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:25:22.760 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:25:22.764 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:25:22.945 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:25:22.945 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:25:22.945 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:25:22.945 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:25:22.946 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:25:22.979 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:25:22.979 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:25:22.980 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:25:22.983 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:25:22.984 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:25:24.246 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:25:24.247 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:25:24.247 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:25:24.247 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:25:24.275 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:25:24.289 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:26:16.335 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:26:16.336 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:26:16.336 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:26:26.596 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-03-15 18:26:26.596 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:26:26.596 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:26:26.596 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:26.616 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:26.616 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:26:26.616 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:26:26.616 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:26:26.616 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:26:26.619 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:26:26.620 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:26:26.620 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:26:26.621 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:26:26.621 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:26:27.873 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:26:27.873 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:26:27.873 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:27.875 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:27.939 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:27.957 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:26:31.727 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:26:31.727 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:26:31.727 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:26:31.727 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:26:31.728 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:26:31.728 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:26:32.949 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:26:32.949 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:26:32.949 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:32.950 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:32.973 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:32.980 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:26:39.355 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:26:39.355 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-15 18:26:39.355 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:39.431 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-15 18:26:39.432 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:26:39.432 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:26:41.653 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:26:41.654 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:26:41.654 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:41.654 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:41.672 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:41.675 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:26:43.533 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:26:43.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:26:43.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:43.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:43.553 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:43.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:26:49.253 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:26:49.253 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:26:49.253 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:26:49.254 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:26:49.255 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:26:49.255 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:26:50.414 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:26:50.415 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:26:50.415 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:50.415 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:50.449 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:50.453 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:26:52.369 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:26:52.369 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:26:52.369 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:52.369 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:26:52.369 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:26:52.369 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:26:53.477 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:26:53.477 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:26:53.477 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:26:53.477 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:26:53.499 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:26:53.505 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:28:58.613 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-03-15 18:28:58.623 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/logout,/login.jsp
+2024-03-15 18:29:01.302 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:29:01.303 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:29:01.303 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:29:08.860 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-03-15 18:29:08.861 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:29:08.861 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:29:08.861 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:29:08.863 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:29:09.038 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:29:09.038 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:29:09.038 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:29:09.038 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:29:09.038 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:29:09.071 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:29:09.071 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:29:09.076 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:29:09.078 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:29:09.079 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:29:10.358 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:29:10.359 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:29:10.360 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:29:10.360 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:29:10.391 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:29:10.401 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:29:15.842 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - LogoutServlet().. 
+2024-03-15 18:29:15.842 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:29:15.842 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/logout
+2024-03-15 18:29:15.843 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:29:15.843 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - logging out user DOOTAM... 
+2024-03-15 18:29:15.849 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:29:15.849 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:29:15.849 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:29:20.445 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:29:20.446 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:29:20.446 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:29:24.416 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:29:24.416 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:29:24.416 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:29:28.045 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:29:28.045 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:29:28.045 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:29:28.046 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:29:28.062 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:29:28.062 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:29:28.062 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:29:28.062 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:29:28.062 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:29:28.066 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:29:28.066 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:29:28.067 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:29:28.067 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:29:28.067 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:29:29.181 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:29:29.188 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:29:29.188 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:29:29.188 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:29:29.217 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:29:29.220 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:31:33.449 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-03-15 18:31:33.457 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/logout,/login.jsp
+2024-03-15 18:31:35.865 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:31:35.866 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:31:35.866 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:31:35.873 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:31:35.873 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:31:35.873 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:31:42.627 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-03-15 18:31:42.627 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-03-15 18:31:42.627 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:31:42.627 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:31:42.629 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:31:42.803 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:31:42.803 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:31:42.803 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:31:42.803 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:31:42.803 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:31:42.834 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:31:42.834 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:31:42.839 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:31:42.842 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:31:42.842 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:31:44.099 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:31:44.099 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:31:44.099 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:31:44.099 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:31:44.113 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:31:44.123 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:31:58.204 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:31:58.205 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:31:58.205 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:31:58.206 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:31:58.207 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:31:58.207 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:31:59.410 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:31:59.410 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:31:59.410 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:31:59.410 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:31:59.428 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:31:59.436 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:32:03.299 [http-nio-8080-exec-33] INFO  Crafter.Log4jOutputStream - LogoutServlet().. 
+2024-03-15 18:32:03.300 [http-nio-8080-exec-33] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:32:03.300 [http-nio-8080-exec-33] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/logout
+2024-03-15 18:32:03.300 [http-nio-8080-exec-33] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:32:03.300 [http-nio-8080-exec-33] INFO  Crafter.Log4jOutputStream - logging out user DOOTAM... 
+2024-03-15 18:32:03.305 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:32:03.305 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:32:03.305 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:32:06.007 [http-nio-8080-exec-34] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:32:06.008 [http-nio-8080-exec-34] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:32:06.008 [http-nio-8080-exec-34] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:32:06.008 [http-nio-8080-exec-34] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:32:06.013 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:32:06.013 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:32:06.013 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:32:21.951 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-03-15 18:32:21.952 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:32:21.952 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:32:21.952 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:32:21.968 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:32:21.968 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:32:21.968 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:32:21.968 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:32:21.968 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:32:21.969 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:32:21.969 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:32:21.970 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:32:21.970 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:32:21.970 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:32:23.607 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:32:23.608 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:32:23.608 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:32:23.608 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:32:23.628 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:32:23.633 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:32:56.406 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-03-15 18:32:56.416 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/logout,/login.jsp
+2024-03-15 18:32:57.314 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - LogoutServlet().. 
+2024-03-15 18:32:57.316 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:32:57.316 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/logout
+2024-03-15 18:32:57.316 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:32:57.318 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - java.lang.NullPointerException
+2024-03-15 18:32:57.319 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at Crafter.LogoutServlet.doPost(LogoutServlet.java:36)
+2024-03-15 18:32:57.319 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:515)
+2024-03-15 18:32:57.319 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+2024-03-15 18:32:57.319 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+2024-03-15 18:32:57.319 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-03-15 18:32:57.319 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.doFilter(SessionFilter.java:84)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+2024-03-15 18:32:57.320 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+2024-03-15 18:32:57.321 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:934)
+2024-03-15 18:32:57.322 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1698)
+2024-03-15 18:32:57.322 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+2024-03-15 18:32:57.322 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+2024-03-15 18:32:57.322 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+2024-03-15 18:32:57.322 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+2024-03-15 18:32:57.322 [http-nio-8080-exec-36] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-03-15 18:33:33.225 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:33:33.226 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:33:33.226 [http-nio-8080-exec-37] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:33:33.266 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:33:33.266 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:33:33.266 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:33:35.382 [http-nio-8080-exec-42] INFO  Crafter.Log4jOutputStream - Maven build DEMO
+2024-03-15 18:33:35.382 [http-nio-8080-exec-42] INFO  Crafter.Log4jOutputStream - Initializing Log4j in servlet...
+2024-03-15 18:33:35.383 [http-nio-8080-exec-42] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:33:35.383 [http-nio-8080-exec-42] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/demo
+2024-03-15 18:33:35.383 [http-nio-8080-exec-42] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:33:35.391 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login
+2024-03-15 18:33:35.391 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:33:35.391 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:33:39.822 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-03-15 18:33:39.823 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-03-15 18:33:39.823 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:33:39.823 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:33:39.827 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:33:40.009 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:33:40.009 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:33:40.009 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:33:40.009 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:33:40.009 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:33:40.040 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:33:40.041 [http-nio-8080-exec-35] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:33:40.044 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-03-15 18:33:40.044 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:33:40.044 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:33:40.048 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:33:40.051 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:33:40.051 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:33:41.229 [http-nio-8080-exec-40] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:33:41.230 [http-nio-8080-exec-40] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:33:41.230 [http-nio-8080-exec-40] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:33:41.230 [http-nio-8080-exec-40] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:33:41.242 [http-nio-8080-exec-40] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:33:41.250 [http-nio-8080-exec-40] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:33:42.513 [http-nio-8080-exec-41] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:33:42.513 [http-nio-8080-exec-41] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/logout
+2024-03-15 18:33:42.513 [http-nio-8080-exec-41] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:33:42.513 [http-nio-8080-exec-41] INFO  Crafter.Log4jOutputStream - logging out user DOOTAM... 
+2024-03-15 18:33:42.518 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:33:42.518 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:33:42.518 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:16.942 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-03-15 18:34:16.943 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:34:16.943 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:16.943 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:34:16.960 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:34:16.960 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:34:16.960 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:34:16.960 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:34:16.960 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:34:16.963 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:34:16.963 [http-nio-8080-exec-38] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:34:16.967 [http-nio-8080-exec-46] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-03-15 18:34:16.968 [http-nio-8080-exec-46] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:34:16.968 [http-nio-8080-exec-46] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:34:16.968 [http-nio-8080-exec-46] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:34:16.969 [http-nio-8080-exec-46] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:34:16.969 [http-nio-8080-exec-46] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:34:18.249 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:18.249 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:34:18.249 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:34:18.249 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:34:18.266 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:34:18.271 [http-nio-8080-exec-39] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:34:21.577 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-03-15 18:34:21.577 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/
+2024-03-15 18:34:21.577 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:21.578 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:34:21.578 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:34:21.578 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:34:22.677 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:34:22.677 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:34:22.677 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:34:22.678 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:34:22.701 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:34:22.706 [http-nio-8080-exec-32] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:34:26.171 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:26.172 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/logout
+2024-03-15 18:34:26.172 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:26.172 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - logging out user DOOTAM... 
+2024-03-15 18:34:26.177 [http-nio-8080-exec-49] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:26.177 [http-nio-8080-exec-49] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:34:26.177 [http-nio-8080-exec-49] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:28.497 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:34:28.497 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:34:28.497 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:34:28.501 [http-nio-8080-exec-44] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/
+2024-03-15 18:34:28.501 [http-nio-8080-exec-44] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:34:28.502 [http-nio-8080-exec-44] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:33.176 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-03-15 18:34:33.176 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-03-15 18:34:33.176 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:33.176 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:34:33.192 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:34:33.192 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-03-15 18:34:33.192 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-03-15 18:34:33.192 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - usernae:  DOOTAM
+2024-03-15 18:34:33.192 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - password:  Dootam123
+2024-03-15 18:34:33.196 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-03-15 18:34:33.196 [http-nio-8080-exec-45] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-03-15 18:34:33.200 [http-nio-8080-exec-50] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-03-15 18:34:33.200 [http-nio-8080-exec-50] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-15 18:34:33.200 [http-nio-8080-exec-50] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:34:33.200 [http-nio-8080-exec-50] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-15 18:34:33.201 [http-nio-8080-exec-50] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-15 18:34:33.201 [http-nio-8080-exec-50] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-15 18:34:34.288 [http-nio-8080-exec-51] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:34.289 [http-nio-8080-exec-51] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:34:34.289 [http-nio-8080-exec-51] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:34:34.289 [http-nio-8080-exec-51] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:34:34.310 [http-nio-8080-exec-51] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:34:34.315 [http-nio-8080-exec-51] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:34:38.131 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:38.132 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:34:38.132 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-15 18:34:38.133 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-15 18:34:38.153 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-15 18:34:38.156 [http-nio-8080-exec-47] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-15 18:34:39.646 [http-nio-8080-exec-52] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:39.646 [http-nio-8080-exec-52] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/logout
+2024-03-15 18:34:39.646 [http-nio-8080-exec-52] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:39.646 [http-nio-8080-exec-52] INFO  Crafter.Log4jOutputStream - logging out user DOOTAM... 
+2024-03-15 18:34:39.651 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:39.651 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:34:39.651 [http-nio-8080-exec-48] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-03-15 18:34:42.531 [http-nio-8080-exec-49] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:42.531 [http-nio-8080-exec-49] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-15 18:34:42.532 [http-nio-8080-exec-49] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-03-15 18:34:42.534 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-15 18:34:42.534 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-03-15 18:34:42.534 [http-nio-8080-exec-43] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
