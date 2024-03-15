@@ -54,6 +54,9 @@ public class SessionFilter implements Filter {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
+    	
+    	UserModel user = null;
+    	
         try {
             HttpServletRequest httpRequest = (HttpServletRequest) request;
             HttpServletResponse httpResponse = (HttpServletResponse) response;
@@ -82,7 +85,8 @@ public class SessionFilter implements Filter {
                 return;
             }
             
-            UserModel user = (UserModel) session.getAttribute("user");
+            if(session.getAttribute("user")!=null)
+            user = (UserModel) session.getAttribute("user");
 
             // Check if session exists
             if (session == null || user == null) {
