@@ -85,18 +85,27 @@ public class SessionFilter implements Filter {
                 return;
             }
             
-            if(session.getAttribute("user")!=null)
-            user = (UserModel) session.getAttribute("user");
+            
+            //user = (UserModel) session.getAttribute("user");
 
             // Check if session exists
-            if (session == null || user == null) {
+            if (session == null /*|| user == null*/) {
                 // Redirect to login page
                 System.out.println("SessionFilter....  session doesn't exist!! redirecting to login.jsp");
-                request.getRequestDispatcher("/login.jsp").forward(request, response);
+               // request.getRequestDispatcher("/login.jsp").forward(request, response);
+                httpResponse.sendRedirect("login.jsp?");
             } else {
+            	user = (UserModel) session.getAttribute("user");
                 // Continue with the chain
+            	if(user!=null) {
                 System.out.println("SessionFilter...  session exists username:: " + user.getUsername());
                 chain.doFilter(request, response);
+            	}
+            	else {
+            		System.out.println("SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp");
+                    //request.getRequestDispatcher("/login.jsp").forward(request, response);
+            		httpResponse.sendRedirect("login.jsp?");
+            	}
             }
         } catch (Exception e) {
             // Handle any exceptions here
