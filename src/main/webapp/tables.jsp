@@ -95,10 +95,11 @@ $(document).ready(function() {
                 html += "<div class='card-header py-3 card-header-bg d-flex justify-content-between align-items-center'>";
                 html += "<span>" + table.tableName + "</span>"; // Table name
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-primary me-2'>View</button>";
-                html += "<button class='btn btn-success me-2'>Add</button>";
-                html += "<button class='btn btn-warning me-2'>Update</button>";
-                html += "<button class='btn btn-danger'>Delete</button>";
+                html += "<button class='btn btn-light me-2 btn-sm'>View</button>";
+                html += "<button class='btn btn-light me-2 btn-sm'>Add</button>";
+                html += "<button class='btn btn-light me-2 btn-sm'>Update</button>";
+                html += "<button class='btn btn-danger me-2 btn-sm'>Delete Data</button>";
+                html += "<button class='btn btn-danger btn-sm'>Delete Table</button>";
                 html += "</div>";
                 html += "</div>";
                 html += "<div class='card-body'>";
