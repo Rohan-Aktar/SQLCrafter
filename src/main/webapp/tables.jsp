@@ -92,11 +92,18 @@ $(document).ready(function() {
             for (var i = 0; i < data.length; i++) {
                 var table = data[i];
                 var html = "<div class='card mb-4'>";
-                html += "<h5 class='card-header py-3 card-header-bg'>" + table.tableName + "</h5>";
+                html += "<div class='card-header py-3 card-header-bg d-flex justify-content-between align-items-center'>";
+                html += "<span>" + table.tableName + "</span>"; // Table name
+                html += "<div>"; // Right side buttons
+                html += "<button class='btn btn-primary me-2'>View</button>";
+                html += "<button class='btn btn-success me-2'>Add</button>";
+                html += "<button class='btn btn-warning me-2'>Update</button>";
+                html += "<button class='btn btn-danger'>Delete</button>";
+                html += "</div>";
+                html += "</div>";
                 html += "<div class='card-body'>";
                 
                 html += "<table class='table table-striped table-bordered'>";
-                //html += "<caption>Columns</caption>";
                 html += "<thead><tr><th>Column Name</th><th>Column Type</th><th>Column Size</th></tr></thead>";
                 html += "<tbody>";
                 for (var j = 0; j < table.columns.length; j++) {
@@ -123,6 +130,7 @@ $(document).ready(function() {
     });
 });
 </script>
+
 
 
 
