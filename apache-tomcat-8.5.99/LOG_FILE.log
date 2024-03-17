@@ -20911,3 +20911,1138 @@
 2024-03-18 03:11:39.747 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
 2024-03-18 03:11:39.747 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
 2024-03-18 03:11:39.748 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:13:36.860 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:13:36.860 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:13:36.860 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:13:36.863 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:13:36.863 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:13:36.865 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:13:36.865 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:13:37.103 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:13:37.103 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:13:37.103 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:13:37.103 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:13:37.103 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:13:37.104 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:13:37.138 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:13:37.147 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:13:37.153 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.153 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.153 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.153 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.153 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:13:37.155 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.158 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:13:37.160 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.160 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.160 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.160 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.160 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:13:37.163 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:13:37.165 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.165 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.165 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.165 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.165 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:13:37.167 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.167 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.167 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.167 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.167 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:13:37.169 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.169 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.169 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.169 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.169 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:13:37.171 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:37.171 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:37.171 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:37.171 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:37.174 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:13:39.975 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:13:39.975 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:13:39.975 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:13:39.975 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:13:39.983 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:13:39.985 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:13:41.386 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:13:41.539 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:13:41.539 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:13:41.539 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:13:41.539 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:13:41.539 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:13:41.539 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:13:41.549 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:13:41.551 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:13:41.553 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.553 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.553 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.553 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.553 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:13:41.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.558 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:13:41.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:13:41.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:13:41.568 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.568 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.568 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.568 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.568 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:13:41.571 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.571 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.571 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.571 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.571 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:13:41.573 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.573 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.573 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.573 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.573 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:13:41.575 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:13:41.575 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:13:41.575 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:13:41.575 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:13:41.576 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:14:02.171 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:14:02.171 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:14:02.171 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:14:02.171 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:14:02.183 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:14:02.185 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:14:05.913 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:14:05.913 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:14:05.913 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:14:05.914 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:14:05.914 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:14:05.914 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:14:05.914 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:14:06.066 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:14:06.079 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:14:06.079 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:14:06.079 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:14:06.079 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:14:06.079 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:14:06.088 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:14:06.090 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:14:06.092 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.092 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.092 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.092 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.092 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:14:06.095 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.098 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:14:06.101 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.101 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.101 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.101 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.101 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:14:06.104 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:14:06.107 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.107 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.107 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.107 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.107 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:14:06.109 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.109 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.110 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.110 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.110 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:14:06.112 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.112 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.112 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.112 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.112 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:14:06.115 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:14:06.115 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:14:06.115 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:14:06.115 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:14:06.116 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:17:19.644 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:17:19.644 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:17:19.644 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:17:19.645 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:17:19.653 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:17:19.655 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:17:21.349 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:17:21.349 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:17:21.349 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:17:21.349 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:17:21.350 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Schema Name: DEMO
+2024-03-18 03:17:21.350 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:17:21.350 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:17:21.491 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=DEMO
+2024-03-18 03:17:21.491 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:17:21.491 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:17:21.491 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:17:21.491 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getConnection() schema: DEMO
+2024-03-18 03:17:21.491 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:17:21.500 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:17:21.503 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: accounts
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : account_id
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : account_number
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : account_type
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : balance
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : opening_date
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : branch
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : interest_rate
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : HOST
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:17:21.506 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: books
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : book_id
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : title
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : author
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : genre
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : publication_date
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : isbn
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : publisher
+2024-03-18 03:17:21.509 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: clubs
+2024-03-18 03:17:21.511 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : club_id
+2024-03-18 03:17:21.511 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : name
+2024-03-18 03:17:21.512 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : advisor
+2024-03-18 03:17:21.512 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : meeting_location
+2024-03-18 03:17:21.512 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : num_members
+2024-03-18 03:17:21.512 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : established_date
+2024-03-18 03:17:21.512 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : club_type
+2024-03-18 03:17:21.512 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: contacts
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : contact_id
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : first_name
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_name
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : phone
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : address
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : city
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : country
+2024-03-18 03:17:21.516 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: courses
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : course_id
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : course_name
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : department
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : professor_id
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : credits
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : start_date
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : end_date
+2024-03-18 03:17:21.519 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: customers
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : customer_id
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : first_name
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_name
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : phone
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : address
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : city
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : country
+2024-03-18 03:17:21.521 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: departments
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : department_id
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : department_name
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : manager_id
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : location
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : budget
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : num_employees
+2024-03-18 03:17:21.523 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: employees
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : employee_id
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : first_name
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_name
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : department
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : salary
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : hire_date
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : manager_id
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : job_title
+2024-03-18 03:17:21.525 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: events
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : event_id
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : event_name
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : event_date
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : location
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : organizer_id
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : max_capacity
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_deadline
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_CATALOG
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_SCHEMA
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_NAME
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : DEFINER
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TIME_ZONE
+2024-03-18 03:17:21.527 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_BODY
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_DEFINITION
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_TYPE
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EXECUTE_AT
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : INTERVAL_VALUE
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : INTERVAL_FIELD
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SQL_MODE
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : STARTS
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : ENDS
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : STATUS
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : ON_COMPLETION
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CREATED
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : LAST_ALTERED
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : LAST_EXECUTED
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : EVENT_COMMENT
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : ORIGINATOR
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CHARACTER_SET_CLIENT
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : COLLATION_CONNECTION
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : DATABASE_COLLATION
+2024-03-18 03:17:21.528 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: hotels
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : hotel_id
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : name
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : location
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : rating
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : price
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : check_in_time
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : check_out_time
+2024-03-18 03:17:21.530 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: inventory
+2024-03-18 03:17:21.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : inventory_id
+2024-03-18 03:17:21.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : product_id
+2024-03-18 03:17:21.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : quantity
+2024-03-18 03:17:21.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : warehouse_location
+2024-03-18 03:17:21.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_stocked
+2024-03-18 03:17:21.534 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: messages
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : message_id
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : sender_id
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : receiver_id
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : message_text
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : sent_at
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : is_read
+2024-03-18 03:17:21.536 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: movies
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : movie_id
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : title
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : director
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : genre
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : release_date
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : rating
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : duration_minutes
+2024-03-18 03:17:21.538 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: orders
+2024-03-18 03:17:21.540 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : order_id
+2024-03-18 03:17:21.540 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : customer_id
+2024-03-18 03:17:21.540 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : order_date
+2024-03-18 03:17:21.540 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : total_amount
+2024-03-18 03:17:21.540 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:17:21.540 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: products
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : product_id
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : product_name
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : price
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : category
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : stock_quantity
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : supplier_id
+2024-03-18 03:17:21.542 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: professors
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : professor_id
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : first_name
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_name
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : department
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : salary
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : office_location
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : office_hours
+2024-03-18 03:17:21.545 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: restaurants
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : restaurant_id
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : name
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : cuisine
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : location
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : rating
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : opening_hours
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : reservation_required
+2024-03-18 03:17:21.548 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: reviews
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : review_id
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : product_id
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : customer_id
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : rating
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : comment
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : review_date
+2024-03-18 03:17:21.550 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: schools
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : school_id
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : name
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : location
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : principal
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : num_students
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : foundation_date
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : accreditation_status
+2024-03-18 03:17:21.552 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: students
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : student_id
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : first_name
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_name
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : date_of_birth
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : major
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : year_of_study
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : advisor_id
+2024-03-18 03:17:21.554 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: suppliers
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : supplier_id
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : supplier_name
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : contact_person
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : phone
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : address
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : city
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : country
+2024-03-18 03:17:21.556 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.559 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: transactions
+2024-03-18 03:17:21.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : transaction_id
+2024-03-18 03:17:21.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : customer_id
+2024-03-18 03:17:21.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : transaction_date
+2024-03-18 03:17:21.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : amount
+2024-03-18 03:17:21.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : transaction_type
+2024-03-18 03:17:21.561 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:17:21.563 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users333
+2024-03-18 03:17:21.564 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:21.564 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:21.565 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:21.565 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:21.565 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"accounts","columns":[{"columnName":"account_id","columnType":"INT","columnSize":10},{"columnName":"account_number","columnType":"VARCHAR","columnSize":20},{"columnName":"account_type","columnType":"VARCHAR","columnSize":50},{"columnName":"balance","columnType":"DECIMAL","columnSize":15},{"columnName":"opening_date","columnType":"DATE","columnSize":10},{"columnName":"branch","columnType":"VARCHAR","columnSize":100},{"columnName":"interest_rate","columnType":"DECIMAL","columnSize":5},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"HOST","columnType":"CHAR","columnSize":255},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"books","columns":[{"columnName":"book_id","columnType":"INT","columnSize":10},{"columnName":"title","columnType":"VARCHAR","columnSize":200},{"columnName":"author","columnType":"VARCHAR","columnSize":100},{"columnName":"genre","columnType":"VARCHAR","columnSize":50},{"columnName":"publication_date","columnType":"DATE","columnSize":10},{"columnName":"isbn","columnType":"VARCHAR","columnSize":20},{"columnName":"publisher","columnType":"VARCHAR","columnSize":100}]},{"tableName":"clubs","columns":[{"columnName":"club_id","columnType":"INT","columnSize":10},{"columnName":"name","columnType":"VARCHAR","columnSize":200},{"columnName":"advisor","columnType":"VARCHAR","columnSize":100},{"columnName":"meeting_location","columnType":"VARCHAR","columnSize":100},{"columnName":"num_members","columnType":"INT","columnSize":10},{"columnName":"established_date","columnType":"DATE","columnSize":10},{"columnName":"club_type","columnType":"ENUM","columnSize":8}]},{"tableName":"contacts","columns":[{"columnName":"contact_id","columnType":"INT","columnSize":10},{"columnName":"first_name","columnType":"VARCHAR","columnSize":50},{"columnName":"last_name","columnType":"VARCHAR","columnSize":50},{"columnName":"email","columnType":"VARCHAR","columnSize":100},{"columnName":"phone","columnType":"VARCHAR","columnSize":20},{"columnName":"address","columnType":"VARCHAR","columnSize":200},{"columnName":"city","columnType":"VARCHAR","columnSize":50},{"columnName":"country","columnType":"VARCHAR","columnSize":50}]},{"tableName":"courses","columns":[{"columnName":"course_id","columnType":"INT","columnSize":10},{"columnName":"course_name","columnType":"VARCHAR","columnSize":100},{"columnName":"department","columnType":"VARCHAR","columnSize":100},{"columnName":"professor_id","columnType":"INT","columnSize":10},{"columnName":"credits","columnType":"INT","columnSize":10},{"columnName":"start_date","columnType":"DATE","columnSize":10},{"columnName":"end_date","columnType":"DATE","columnSize":10}]},{"tableName":"customers","columns":[{"columnName":"customer_id","columnType":"INT","columnSize":10},{"columnName":"first_name","columnType":"VARCHAR","columnSize":50},{"columnName":"last_name","columnType":"VARCHAR","columnSize":50},{"columnName":"email","columnType":"VARCHAR","columnSize":100},{"columnName":"phone","columnType":"VARCHAR","columnSize":20},{"columnName":"address","columnType":"VARCHAR","columnSize":200},{"columnName":"city","columnType":"VARCHAR","columnSize":50},{"columnName":"country","columnType":"VARCHAR","columnSize":50}]},{"tableName":"departments","columns":[{"columnName":"department_id","columnType":"INT","columnSize":10},{"columnName":"department_name","columnType":"VARCHAR","columnSize":100},{"columnName":"manager_id","columnType":"INT","columnSize":10},{"columnName":"location","columnType":"VARCHAR","columnSize":100},{"columnName":"budget","columnType":"DECIMAL","columnSize":15},{"columnName":"num_employees","columnType":"INT","columnSize":10}]},{"tableName":"employees","columns":[{"columnName":"employee_id","columnType":"INT","columnSize":10},{"columnName":"first_name","columnType":"VARCHAR","columnSize":50},{"columnName":"last_name","columnType":"VARCHAR","columnSize":50},{"columnName":"department","columnType":"VARCHAR","columnSize":100},{"columnName":"salary","columnType":"DECIMAL","columnSize":10},{"columnName":"hire_date","columnType":"DATE","columnSize":10},{"columnName":"manager_id","columnType":"INT","columnSize":10},{"columnName":"job_title","columnType":"VARCHAR","columnSize":100}]},{"tableName":"events","columns":[{"columnName":"event_id","columnType":"INT","columnSize":10},{"columnName":"event_name","columnType":"VARCHAR","columnSize":100},{"columnName":"event_date","columnType":"DATE","columnSize":10},{"columnName":"location","columnType":"VARCHAR","columnSize":100},{"columnName":"organizer_id","columnType":"INT","columnSize":10},{"columnName":"max_capacity","columnType":"INT","columnSize":10},{"columnName":"registration_deadline","columnType":"DATE","columnSize":10},{"columnName":"EVENT_CATALOG","columnType":"VARCHAR","columnSize":64},{"columnName":"EVENT_SCHEMA","columnType":"VARCHAR","columnSize":64},{"columnName":"EVENT_NAME","columnType":"VARCHAR","columnSize":64},{"columnName":"DEFINER","columnType":"VARCHAR","columnSize":288},{"columnName":"TIME_ZONE","columnType":"VARCHAR","columnSize":64},{"columnName":"EVENT_BODY","columnType":"VARCHAR","columnSize":3},{"columnName":"EVENT_DEFINITION","columnType":"LONGTEXT","columnSize":2147483647},{"columnName":"EVENT_TYPE","columnType":"VARCHAR","columnSize":9},{"columnName":"EXECUTE_AT","columnType":"DATETIME","columnSize":19},{"columnName":"INTERVAL_VALUE","columnType":"VARCHAR","columnSize":256},{"columnName":"INTERVAL_FIELD","columnType":"ENUM","columnSize":18},{"columnName":"SQL_MODE","columnType":"SET","columnSize":520},{"columnName":"STARTS","columnType":"DATETIME","columnSize":19},{"columnName":"ENDS","columnType":"DATETIME","columnSize":19},{"columnName":"STATUS","columnType":"ENUM","columnSize":18},{"columnName":"ON_COMPLETION","columnType":"VARCHAR","columnSize":12},{"columnName":"CREATED","columnType":"TIMESTAMP","columnSize":19},{"columnName":"LAST_ALTERED","columnType":"TIMESTAMP","columnSize":19},{"columnName":"LAST_EXECUTED","columnType":"DATETIME","columnSize":19},{"columnName":"EVENT_COMMENT","columnType":"VARCHAR","columnSize":2048},{"columnName":"ORIGINATOR","columnType":"INT UNSIGNED","columnSize":10},{"columnName":"CHARACTER_SET_CLIENT","columnType":"VARCHAR","columnSize":64},{"columnName":"COLLATION_CONNECTION","columnType":"VARCHAR","columnSize":64},{"columnName":"DATABASE_COLLATION","columnType":"VARCHAR","columnSize":64}]},{"tableName":"hotels","columns":[{"columnName":"hotel_id","columnType":"INT","columnSize":10},{"columnName":"name","columnType":"VARCHAR","columnSize":200},{"columnName":"location","columnType":"VARCHAR","columnSize":100},{"columnName":"rating","columnType":"DECIMAL","columnSize":3},{"columnName":"price","columnType":"DECIMAL","columnSize":10},{"columnName":"check_in_time","columnType":"TIME","columnSize":8},{"columnName":"check_out_time","columnType":"TIME","columnSize":8}]},{"tableName":"inventory","columns":[{"columnName":"inventory_id","columnType":"INT","columnSize":10},{"columnName":"product_id","columnType":"INT","columnSize":10},{"columnName":"quantity","columnType":"INT","columnSize":10},{"columnName":"warehouse_location","columnType":"VARCHAR","columnSize":100},{"columnName":"last_stocked","columnType":"DATETIME","columnSize":19}]},{"tableName":"messages","columns":[{"columnName":"message_id","columnType":"INT","columnSize":10},{"columnName":"sender_id","columnType":"INT","columnSize":10},{"columnName":"receiver_id","columnType":"INT","columnSize":10},{"columnName":"message_text","columnType":"TEXT","columnSize":65535},{"columnName":"sent_at","columnType":"TIMESTAMP","columnSize":19},{"columnName":"is_read","columnType":"BIT","columnSize":1}]},{"tableName":"movies","columns":[{"columnName":"movie_id","columnType":"INT","columnSize":10},{"columnName":"title","columnType":"VARCHAR","columnSize":200},{"columnName":"director","columnType":"VARCHAR","columnSize":100},{"columnName":"genre","columnType":"VARCHAR","columnSize":50},{"columnName":"release_date","columnType":"DATE","columnSize":10},{"columnName":"rating","columnType":"DEC
+2024-03-18 03:17:21.567 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - IMAL","columnSize":3},{"columnName":"duration_minutes","columnType":"INT","columnSize":10}]},{"tableName":"orders","columns":[{"columnName":"order_id","columnType":"INT","columnSize":10},{"columnName":"customer_id","columnType":"INT","columnSize":10},{"columnName":"order_date","columnType":"DATE","columnSize":10},{"columnName":"total_amount","columnType":"DECIMAL","columnSize":10},{"columnName":"status","columnType":"ENUM","columnSize":10}]},{"tableName":"products","columns":[{"columnName":"product_id","columnType":"INT","columnSize":10},{"columnName":"product_name","columnType":"VARCHAR","columnSize":100},{"columnName":"price","columnType":"DECIMAL","columnSize":10},{"columnName":"category","columnType":"VARCHAR","columnSize":50},{"columnName":"stock_quantity","columnType":"INT","columnSize":10},{"columnName":"supplier_id","columnType":"INT","columnSize":10}]},{"tableName":"professors","columns":[{"columnName":"professor_id","columnType":"INT","columnSize":10},{"columnName":"first_name","columnType":"VARCHAR","columnSize":50},{"columnName":"last_name","columnType":"VARCHAR","columnSize":50},{"columnName":"department","columnType":"VARCHAR","columnSize":100},{"columnName":"salary","columnType":"DECIMAL","columnSize":10},{"columnName":"office_location","columnType":"VARCHAR","columnSize":100},{"columnName":"office_hours","columnType":"VARCHAR","columnSize":100}]},{"tableName":"restaurants","columns":[{"columnName":"restaurant_id","columnType":"INT","columnSize":10},{"columnName":"name","columnType":"VARCHAR","columnSize":200},{"columnName":"cuisine","columnType":"VARCHAR","columnSize":100},{"columnName":"location","columnType":"VARCHAR","columnSize":100},{"columnName":"rating","columnType":"DECIMAL","columnSize":3},{"columnName":"opening_hours","columnType":"VARCHAR","columnSize":100},{"columnName":"reservation_required","columnType":"BIT","columnSize":1}]},{"tableName":"reviews","columns":[{"columnName":"review_id","columnType":"INT","columnSize":10},{"columnName":"product_id","columnType":"INT","columnSize":10},{"columnName":"customer_id","columnType":"INT","columnSize":10},{"columnName":"rating","columnType":"INT","columnSize":10},{"columnName":"comment","columnType":"TEXT","columnSize":65535},{"columnName":"review_date","columnType":"DATE","columnSize":10}]},{"tableName":"schools","columns":[{"columnName":"school_id","columnType":"INT","columnSize":10},{"columnName":"name","columnType":"VARCHAR","columnSize":200},{"columnName":"location","columnType":"VARCHAR","columnSize":100},{"columnName":"principal","columnType":"VARCHAR","columnSize":100},{"columnName":"num_students","columnType":"INT","columnSize":10},{"columnName":"foundation_date","columnType":"DATE","columnSize":10},{"columnName":"accreditation_status","columnType":"ENUM","columnSize":14}]},{"tableName":"students","columns":[{"columnName":"student_id","columnType":"INT","columnSize":10},{"columnName":"first_name","columnType":"VARCHAR","columnSize":50},{"columnName":"last_name","columnType":"VARCHAR","columnSize":50},{"columnName":"date_of_birth","columnType":"DATE","columnSize":10},{"columnName":"major","columnType":"VARCHAR","columnSize":100},{"columnName":"year_of_study","columnType":"INT","columnSize":10},{"columnName":"advisor_id","columnType":"INT","columnSize":10}]},{"tableName":"suppliers","columns":[{"columnName":"supplier_id","columnType":"INT","columnSize":10},{"columnName":"supplier_name","columnType":"VARCHAR","columnSize":100},{"columnName":"contact_person","columnType":"VARCHAR","columnSize":100},{"columnName":"email","columnType":"VARCHAR","columnSize":100},{"columnName":"phone","columnType":"VARCHAR","columnSize":20},{"columnName":"address","columnType":"VARCHAR","columnSize":200},{"columnName":"city","columnType":"VARCHAR","columnSize":50},{"columnName":"country","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"transactions","columns":[{"columnName":"transaction_id","columnType":"INT","columnSize":10},{"columnName":"customer_id","columnType":"INT","columnSize":10},{"columnName":"transaction_date","columnType":"DATE","columnSize":10},{"columnName":"amount","columnType":"DECIMAL","columnSize":10},{"columnName":"transaction_type","columnType":"ENUM","columnSize":10}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users333","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:17:22.447 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:17:22.447 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:17:22.447 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:17:22.447 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:17:22.459 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:17:22.461 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:17:23.288 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:17:23.415 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:17:23.415 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:17:23.415 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:17:23.415 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:17:23.415 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:17:23.415 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:17:23.424 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:17:23.427 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:17:23.429 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.429 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.429 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.429 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.429 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:17:23.432 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:17:23.433 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:17:23.433 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:17:23.433 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:17:23.433 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:17:23.433 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:17:23.433 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.435 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:17:23.437 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.437 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.437 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.437 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.438 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:17:23.440 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:17:23.442 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.442 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.443 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.443 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.443 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:17:23.444 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.444 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.444 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.444 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.444 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:17:23.446 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.446 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.446 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.446 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.446 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:17:23.449 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:17:23.449 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:17:23.449 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:17:23.449 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:17:23.449 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:19:44.372 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:44.372 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:19:44.372 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:44.372 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:19:44.390 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:19:44.393 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:19:50.067 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:50.067 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:19:50.067 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:50.068 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:19:50.068 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:19:50.068 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:19:50.068 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:19:50.247 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:19:50.247 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:19:50.247 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:50.247 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:19:50.247 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:19:50.247 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:19:50.257 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:19:50.260 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:19:50.263 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.263 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.263 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.263 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.263 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:19:50.266 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.271 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:19:50.274 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.275 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.275 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.275 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.275 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:19:50.278 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:19:50.281 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.281 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.281 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.281 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.281 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:19:50.283 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.284 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.284 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.284 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.284 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:19:50.286 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.286 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.286 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.286 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.286 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:19:50.288 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:50.288 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:50.288 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:50.288 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:50.288 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:19:53.469 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:53.469 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:19:53.469 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:53.469 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:19:53.477 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:19:53.478 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:19:55.652 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:55.652 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:19:55.652 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:55.653 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:19:55.662 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:19:55.666 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:19:57.114 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:57.114 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:19:57.114 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:57.114 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:19:57.114 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - Schema Name: Dootam
+2024-03-18 03:19:57.115 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:19:57.115 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:19:57.266 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Dootam
+2024-03-18 03:19:57.267 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:19:57.267 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:57.267 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:19:57.267 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - getConnection() schema: Dootam
+2024-03-18 03:19:57.267 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:19:57.277 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:19:57.279 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users444
+2024-03-18 03:19:57.281 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:57.281 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:57.281 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:57.281 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:57.282 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"users444","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:19:58.614 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:58.630 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:19:58.630 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:58.630 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:19:58.644 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:19:58.645 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:19:59.528 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:19:59.528 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:19:59.528 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:59.528 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:19:59.528 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:19:59.529 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:19:59.529 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:19:59.687 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:19:59.687 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:19:59.687 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:19:59.687 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:19:59.687 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:19:59.687 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:19:59.695 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:19:59.697 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:19:59.700 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.700 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.700 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.700 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.700 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:19:59.703 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.706 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:19:59.709 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.709 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.709 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.709 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.709 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:19:59.713 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:19:59.715 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.715 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.715 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.715 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.715 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:19:59.719 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.719 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.719 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.719 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.719 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:19:59.721 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.721 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.721 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.721 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.721 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:19:59.723 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:19:59.723 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:19:59.723 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:19:59.723 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:19:59.724 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:20:22.011 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:20:22.012 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:20:22.012 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:20:22.012 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:20:22.019 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:20:22.021 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:20:26.644 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:20:26.645 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:20:26.645 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:20:26.646 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:20:26.646 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:20:26.649 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:20:26.668 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:20:26.848 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:20:26.848 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:20:26.848 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:20:26.848 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:20:26.848 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:20:26.848 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:20:26.856 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:20:26.858 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:20:26.861 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.861 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.861 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.861 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.861 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:20:26.863 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.866 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:20:26.868 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.868 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.868 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.868 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.868 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:20:26.871 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:20:26.874 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.874 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.874 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.874 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.874 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:20:26.876 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.876 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.876 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.876 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.876 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:20:26.879 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.879 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.879 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.879 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.879 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:20:26.882 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:20:26.882 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:20:26.882 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:20:26.882 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:20:26.883 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:22:09.466 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:22:09.467 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-18 03:22:09.467 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:09.468 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-18 03:22:09.469 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:09.469 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:09.834 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:09.834 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:09.834 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:09.834 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:09.844 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:09.846 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:11.594 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:11.594 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/demo
+2024-03-18 03:22:11.594 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:11.594 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - Inside doGet()
+2024-03-18 03:22:14.005 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:14.006 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:14.006 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:14.006 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:14.012 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:14.013 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:18.296 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:22:18.296 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-03-18 03:22:18.296 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:18.297 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-03-18 03:22:18.297 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:18.297 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:18.557 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:18.557 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:18.557 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:18.557 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:18.563 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:18.564 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:20.551 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:20.649 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:22:20.649 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:22:20.649 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:20.650 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:22:20.650 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:22:20.650 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:22:20.658 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:22:20.660 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:22:20.664 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.664 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.664 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.664 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.664 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:22:20.667 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:22:20.667 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:22:20.667 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:22:20.667 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:22:20.667 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:22:20.668 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:22:20.668 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.671 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:22:20.674 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.674 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.674 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.674 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.674 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:22:20.677 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:22:20.678 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:22:20.680 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.680 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.680 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.680 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.680 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:22:20.683 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.683 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.683 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.683 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.683 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:22:20.685 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.685 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.685 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.685 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.685 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:22:20.687 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:20.687 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:20.687 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:20.687 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:20.688 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:22:28.057 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:28.057 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:28.057 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:28.058 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:28.070 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:28.073 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:29.491 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:29.491 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:22:29.491 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:29.491 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:22:29.491 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Schema Name: Dootam12
+2024-03-18 03:22:29.492 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:29.492 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:29.655 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Dootam12
+2024-03-18 03:22:29.655 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:22:29.655 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:29.655 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:22:29.655 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getConnection() schema: Dootam12
+2024-03-18 03:22:29.655 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:22:29.664 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:22:29.666 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":false}
+2024-03-18 03:22:30.643 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:30.643 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:30.643 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:30.643 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:30.650 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:30.651 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:32.525 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:32.526 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:22:32.526 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:32.526 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:22:32.526 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Schema Name: Dootam
+2024-03-18 03:22:32.526 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:32.526 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:32.686 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Dootam
+2024-03-18 03:22:32.686 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:22:32.686 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:32.687 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:22:32.687 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getConnection() schema: Dootam
+2024-03-18 03:22:32.687 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:22:32.695 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:22:32.699 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users444
+2024-03-18 03:22:32.703 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:32.703 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:32.703 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:32.703 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:32.704 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"users444","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
+2024-03-18 03:22:39.615 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:39.616 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:39.616 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:39.616 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:39.629 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:39.631 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:41.623 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:41.623 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:22:41.623 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:41.623 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:22:41.623 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Schema Name: sys
+2024-03-18 03:22:41.624 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:41.624 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:41.794 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=sys
+2024-03-18 03:22:41.794 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:22:41.794 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:41.794 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:22:41.794 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getConnection() schema: sys
+2024-03-18 03:22:41.794 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:22:41.801 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:22:41.805 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: sys_config
+2024-03-18 03:22:41.809 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : variable
+2024-03-18 03:22:41.809 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : value
+2024-03-18 03:22:41.809 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : set_time
+2024-03-18 03:22:41.809 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : set_by
+2024-03-18 03:22:41.809 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"sys_config","columns":[{"columnName":"variable","columnType":"VARCHAR","columnSize":128},{"columnName":"value","columnType":"VARCHAR","columnSize":128},{"columnName":"set_time","columnType":"TIMESTAMP","columnSize":19},{"columnName":"set_by","columnType":"VARCHAR","columnSize":128}]}]}
+2024-03-18 03:22:43.232 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:43.232 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:43.232 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:43.232 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:43.238 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:43.239 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Schema Name: Rohan12
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:44.118 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:44.253 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Rohan12
+2024-03-18 03:22:44.253 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:22:44.253 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:44.253 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:22:44.253 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - getConnection() schema: Rohan12
+2024-03-18 03:22:44.253 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:22:44.262 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:22:44.282 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":false}
+2024-03-18 03:22:45.282 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:45.282 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-03-18 03:22:45.282 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:45.282 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - Connecting to DB...
+2024-03-18 03:22:45.295 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - connected to DB...
+2024-03-18 03:22:45.297 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["Crafter","DEMO","Dootam","Dootam1","Dootam12","Dootam123","Rohan","Rohan1","Rohan12","Rohan123","information_schema","mysql","performance_schema","sys"]
+2024-03-18 03:22:46.741 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-03-18 03:22:46.742 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables.jsp
+2024-03-18 03:22:46.742 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:46.742 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE tables.JSP
+2024-03-18 03:22:46.742 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Schema Name: Crafter
+2024-03-18 03:22:46.742 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-03-18 03:22:46.742 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - Inside header.jsp User::: DOOTAM
+2024-03-18 03:22:46.900 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/tables.jsp?schema=Crafter
+2024-03-18 03:22:46.900 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/tables
+2024-03-18 03:22:46.900 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: DOOTAM
+2024-03-18 03:22:46.900 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - inside getTablesInfo().. 
+2024-03-18 03:22:46.900 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getConnection() schema: Crafter
+2024-03-18 03:22:46.900 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Connecting to DB<schemaname>...
+2024-03-18 03:22:46.909 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - connected to DB<schemaname>...
+2024-03-18 03:22:46.911 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_Crafter_users
+2024-03-18 03:22:46.914 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.914 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.914 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.914 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.914 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: T_RECIPES
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_ID
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_TITLE
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : IMAGE_URL
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : RECIPE_PUBLISHER
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : SOURCE_URL
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : PUBLISHED_DATE
+2024-03-18 03:22:46.916 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.919 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: t_users123
+2024-03-18 03:22:46.921 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.921 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.921 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.921 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.921 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : registration_date
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : last_login
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : status
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : USER
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : CURRENT_CONNECTIONS
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : TOTAL_CONNECTIONS
+2024-03-18 03:22:46.924 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users2222
+2024-03-18 03:22:46.926 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.926 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.926 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.926 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.926 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users3
+2024-03-18 03:22:46.929 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.929 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.929 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.929 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.929 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users4
+2024-03-18 03:22:46.931 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.931 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.932 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.932 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.932 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - getTablesInfo()  iterating table: users5
+2024-03-18 03:22:46.933 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : id
+2024-03-18 03:22:46.933 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : username
+2024-03-18 03:22:46.933 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : password
+2024-03-18 03:22:46.933 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - <<< iterating column >>>  : email
+2024-03-18 03:22:46.934 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - /tables json response::: {"status":true,"tables":[{"tableName":"t_Crafter_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"T_RECIPES","columns":[{"columnName":"RECIPE_ID","columnType":"INT","columnSize":10},{"columnName":"RECIPE_TITLE","columnType":"VARCHAR","columnSize":200},{"columnName":"IMAGE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"RECIPE_PUBLISHER","columnType":"VARCHAR","columnSize":200},{"columnName":"SOURCE_URL","columnType":"VARCHAR","columnSize":200},{"columnName":"PUBLISHED_DATE","columnType":"DATE","columnSize":10}]},{"tableName":"t_users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"t_users123","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50},{"columnName":"registration_date","columnType":"DATE","columnSize":10},{"columnName":"last_login","columnType":"DATETIME","columnSize":19},{"columnName":"status","columnType":"ENUM","columnSize":8},{"columnName":"USER","columnType":"CHAR","columnSize":32},{"columnName":"CURRENT_CONNECTIONS","columnType":"BIGINT","columnSize":19},{"columnName":"TOTAL_CONNECTIONS","columnType":"BIGINT","columnSize":19}]},{"tableName":"users2222","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users3","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users4","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]},{"tableName":"users5","columns":[{"columnName":"id","columnType":"INT","columnSize":10},{"columnName":"username","columnType":"VARCHAR","columnSize":50},{"columnName":"password","columnType":"VARCHAR","columnSize":255},{"columnName":"email","columnType":"VARCHAR","columnSize":50}]}]}
