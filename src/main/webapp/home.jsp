@@ -119,7 +119,7 @@
             $("#databaseInfo").html(html);
         });
         
-        },1000); //1000 ms delay.
+        },100); //1000 ms delay.
     }
 
     // Redirect to tables.jsp with the selected schema name
