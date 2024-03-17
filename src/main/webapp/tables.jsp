@@ -33,6 +33,10 @@
         background-color: #f8f9fa; /* Set a light background color */
         color: #ffffff; /* Text color (white in this example) */
     }
+    .card-header-bg{
+    	background-color: #17a2b8; /* Set a blue color for the header */
+        color: #ffffff; /* Set text color to white */
+    }
     
 </style>
     
@@ -58,6 +62,8 @@
 
 <div class="container mt-4">
     <h2>Tables in Schema: <%= schemaName %></h2>
+    <BR>
+    
     <div id="tablesList"></div>
 </div>
 
@@ -85,17 +91,32 @@ $(document).ready(function() {
             var tablesList = $("#tablesList");
             for (var i = 0; i < data.length; i++) {
                 var table = data[i];
-                var html = "<div class='card'>";
-                html += "<h5 class='card-header'>" + table.tableName + "</h5>";
+                var html = "<div class='card mb-4'>";
+                html += "<div class='card-header py-3 card-header-bg d-flex justify-content-between align-items-center'>";
+                html += "<span>" + table.tableName + "</span>"; // Table name
+                html += "<div>"; // Right side buttons
+                html += "<button class='btn btn-light me-2 btn-sm'>View</button>";
+                html += "<button class='btn btn-light me-2 btn-sm'>Add</button>";
+                html += "<button class='btn btn-light me-2 btn-sm'>Update</button>";
+                html += "<button class='btn btn-danger me-2 btn-sm'>Delete Data</button>";
+                html += "<button class='btn btn-danger btn-sm'>Delete Table</button>";
+                html += "</div>";
+                html += "</div>";
                 html += "<div class='card-body'>";
-                html += "<ul class='list-group'>";
+                
+                html += "<table class='table table-striped table-bordered'>";
+                html += "<thead><tr><th>Column Name</th><th>Column Type</th><th>Column Size</th></tr></thead>";
+                html += "<tbody>";
                 for (var j = 0; j < table.columns.length; j++) {
                     var column = table.columns[j];
-                    html += "<li class='list-group-item'>" + column.columnName + " - " + column.columnType + "(" + column.columnSize + ")" + "</li>";
+                    html += "<tr>";
+                    html += "<td class='col-6'>" + column.columnName + "</td>";
+                    html += "<td class='col-3'>" + column.columnType + "</td>";
+                    html += "<td class='col-3'>" + column.columnSize + "</td>";
+                    html += "</tr>";
                 }
-                html += "</ul>";
-                html += "</div>";
-                html += "</div>";
+                html += "</tbody></table>";
+                html += "</div></div>";
                 tablesList.append(html);
             }
         } else {
@@ -110,6 +131,13 @@ $(document).ready(function() {
     });
 });
 </script>
+
+
+
+
+
+
+
 
 
 <%
