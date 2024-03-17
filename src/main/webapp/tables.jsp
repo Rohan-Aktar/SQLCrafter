@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.List" %>
+<%@ page import="Crafter.TableInfo" %>
+<%@ page import="Crafter.ColumnInfo" %>
+<%@ page import="com.google.gson.Gson" %>
 
 <!DOCTYPE html>
 <html>
@@ -41,21 +44,73 @@
     	
     	System.out.println("INSIDE tables.JSP");
     	
-        // Retrieve tables from the request attribute
-       // List<String> tables = (List<String>) request.getAttribute("tables");
+        // Retrieve schema name from the request parameter
+        String schemaName = request.getParameter("schema");
+
+        // Display schema name
+        System.out.println("Schema Name: " + schemaName);
 
         // Display tables here
 %>
 
 <!-- Include the header -->
-    <jsp:include page="header.jsp" />
+<jsp:include page="header.jsp" />
 
-     <div class="container mt-4">
-        <h2>Tables in Schema: <%= request.getParameter("schema") %></h2>
-        <ul class="list-group">
-            
-        </ul>
-    </div>
+<div class="container mt-4">
+    <h2>Tables in Schema: <%= schemaName %></h2>
+    <div id="tablesList"></div>
+</div>
+
+
+
+<!-- Bootstrap Footer -->
+<jsp:include page="footer.jsp" />
+
+<!-- Latest Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Retrieve tables info using AJAX
+    $.get("${pageContext.request.contextPath}/tables", { schema: "<%= schemaName %>" }, function(response) {
+        // Parse JSON response
+        var data = response.tables;
+        var status = response.status;
+
+        // Check if status is true and data is not empty
+        if (status && data && data.length > 0) {
+            // Render tables list
+            var tablesList = $("#tablesList");
+            for (var i = 0; i < data.length; i++) {
+                var table = data[i];
+                var html = "<div class='card'>";
+                html += "<h5 class='card-header'>" + table.tableName + "</h5>";
+                html += "<div class='card-body'>";
+                html += "<ul class='list-group'>";
+                for (var j = 0; j < table.columns.length; j++) {
+                    var column = table.columns[j];
+                    html += "<li class='list-group-item'>" + column.columnName + " - " + column.columnType + "(" + column.columnSize + ")" + "</li>";
+                }
+                html += "</ul>";
+                html += "</div>";
+                html += "</div>";
+                tablesList.append(html);
+            }
+        } else {
+            // If status is false or data is empty, display a message
+            var message = "<BR><BR><BR><div class='alert alert-danger' role='alert'>No tables found!</div>";
+            $("#tablesList").append(message);
+        }
+    }).fail(function() {
+        // If AJAX call fails, display an error message
+        var errorMessage = "<div class='alert alert-danger' role='alert'>Error fetching data. Please try again later.</div>";
+        $("#tablesList").append(errorMessage);
+    });
+});
+</script>
+
 
 <%
     } catch (Exception e) {
@@ -63,20 +118,8 @@
         System.out.println(e);
         e.printStackTrace(System.out);
         //e.printStackTrace();
-        
     }
 %>
-
-    <!-- Bootstrap Footer -->
-    
-    <!-- Include the footer -->
-    <jsp:include page="footer.jsp" />
-    
-    
-      <!-- Latest Bootstrap JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 </body>
 </html>
