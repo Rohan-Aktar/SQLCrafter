@@ -79,6 +79,10 @@
 
 <script>
 $(document).ready(function() {
+	
+	//loader.
+	$("#tablesList").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
+	
     // Retrieve tables info using AJAX
     $.get("${pageContext.request.contextPath}/tables", { schema: "<%= schemaName %>" }, function(response) {
         // Parse JSON response
@@ -87,8 +91,10 @@ $(document).ready(function() {
 
         // Check if status is true and data is not empty
         if (status && data && data.length > 0) {
+        	
             // Render tables list
             var tablesList = $("#tablesList");
+            tablesList.html(''); //remove the loader frst.
             for (var i = 0; i < data.length; i++) {
                 var table = data[i];
                 var html = "<div class='card mb-4'>";
@@ -122,7 +128,7 @@ $(document).ready(function() {
         } else {
             // If status is false or data is empty, display a message
             var message = "<BR><BR><BR><div class='alert alert-danger' role='alert'>No tables found!</div>";
-            $("#tablesList").append(message);
+            $("#tablesList").html(message);
         }
     }).fail(function() {
         // If AJAX call fails, display an error message
