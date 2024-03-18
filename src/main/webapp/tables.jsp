@@ -108,11 +108,11 @@ $(document).ready(function() {
                 html += "<span style='margin-left: 10px;'><h4>" + table.tableName + "</h4></span>"; // Table name with left margin
                 html += "</div>"; // End of image and table name container
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'>View</button>";
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Add</button>";
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Update</button>";
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Delete Data</button>";
-                html += "<button class='btn btn-danger btn-sm'>Delete Table</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>Add</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>Update</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>Delete Data</button>";
+                html += "<button class='btn btn-danger btn-sm'><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>Delete Table</button>";
                 html += "</div>";
                 html += "</div>";
                 html += "<div class='card-body'>";
