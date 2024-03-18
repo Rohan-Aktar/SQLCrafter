@@ -33,10 +33,10 @@
         background-color: #f8f9fa; /* Set a light background color */
         color: #ffffff; /* Text color (white in this example) */
     }
-    .card-header-bg{
-    	background-color: #17a2b8; /* Set a blue color for the header */
-        color: #ffffff; /* Set text color to white */
-    }
+   /* .card-header-bg{
+    	background-color: #17a2b8;
+        color: #ffffff; 
+    }*/
     
 </style>
     
@@ -95,10 +95,10 @@ $(document).ready(function() {
                 html += "<div class='card-header py-3 card-header-bg d-flex justify-content-between align-items-center'>";
                 html += "<span>" + table.tableName + "</span>"; // Table name
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-light me-2 btn-sm'>View</button>";
-                html += "<button class='btn btn-light me-2 btn-sm'>Add</button>";
-                html += "<button class='btn btn-light me-2 btn-sm'>Update</button>";
-                html += "<button class='btn btn-danger me-2 btn-sm'>Delete Data</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>View</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Add</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Update</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Delete Data</button>";
                 html += "<button class='btn btn-danger btn-sm'>Delete Table</button>";
                 html += "</div>";
                 html += "</div>";
