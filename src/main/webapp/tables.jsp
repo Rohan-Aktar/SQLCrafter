@@ -33,10 +33,10 @@
         background-color: #f8f9fa; /* Set a light background color */
         color: #ffffff; /* Text color (white in this example) */
     }
-    .card-header-bg{
-    	background-color: #17a2b8; /* Set a blue color for the header */
-        color: #ffffff; /* Set text color to white */
-    }
+   /* .card-header-bg{
+    	background-color: #17a2b8;
+        color: #ffffff; 
+    }*/
     
 </style>
     
@@ -61,7 +61,12 @@
 <jsp:include page="header.jsp" />
 
 <div class="container mt-4">
-    <h2>Tables in Schema: <%= schemaName %></h2>
+    
+    <h2 class="d-flex justify-content-between">Tables in Schema: <%= schemaName %>
+    <input type="text" id="searchInput" class="form-control" style="width: 400px;" placeholder="Search table name...">
+	</h2>
+
+    
     <BR>
     
     <div id="tablesList"></div>
@@ -78,7 +83,11 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 <script>
+
 $(document).ready(function() {
+    //loader.
+    $("#tablesList").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
+
     // Retrieve tables info using AJAX
     $.get("${pageContext.request.contextPath}/tables", { schema: "<%= schemaName %>" }, function(response) {
         // Parse JSON response
@@ -89,21 +98,25 @@ $(document).ready(function() {
         if (status && data && data.length > 0) {
             // Render tables list
             var tablesList = $("#tablesList");
+            tablesList.html(''); //remove the loader first
             for (var i = 0; i < data.length; i++) {
                 var table = data[i];
                 var html = "<div class='card mb-4'>";
                 html += "<div class='card-header py-3 card-header-bg d-flex justify-content-between align-items-center'>";
-                html += "<span>" + table.tableName + "</span>"; // Table name
+                html += "<div class='d-flex align-items-center'>";
+                html += "<img src='${pageContext.request.contextPath}/resources/images/table.png' class='img-fluid me-2' style='max-width: 40px;' alt='Table Icon'>";
+                html += "<span style='margin-left: 10px;'><h4>" + table.tableName + "</h4></span>"; // Table name with left margin
+                html += "</div>"; // End of image and table name container
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-light me-2 btn-sm'>View</button>";
-                html += "<button class='btn btn-light me-2 btn-sm'>Add</button>";
-                html += "<button class='btn btn-light me-2 btn-sm'>Update</button>";
-                html += "<button class='btn btn-danger me-2 btn-sm'>Delete Data</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>View</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Add</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Update</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm'>Delete Data</button>";
                 html += "<button class='btn btn-danger btn-sm'>Delete Table</button>";
                 html += "</div>";
                 html += "</div>";
                 html += "<div class='card-body'>";
-                
+
                 html += "<table class='table table-striped table-bordered'>";
                 html += "<thead><tr><th>Column Name</th><th>Column Type</th><th>Column Size</th></tr></thead>";
                 html += "<tbody>";
@@ -119,17 +132,41 @@ $(document).ready(function() {
                 html += "</div></div>";
                 tablesList.append(html);
             }
+
+            // Add event listener for search input
+            $("#searchInput").on("input", function() {
+                var searchText = $(this).val().toLowerCase();
+                var visibleTables = 0;
+                $("#tablesList .card").each(function() {
+                    var tableName = $(this).find(".card-header span").text().toLowerCase();
+                    if (tableName.includes(searchText)) {
+                        $(this).show();
+                        visibleTables++;
+                    } else {
+                        $(this).hide();
+                    }
+                });
+                // Show "No tables found" message if no tables are visible
+                var alertMessage = "<div id='noTablesAlert' class='alert alert-danger' role='alert'>No tables found!</div>";
+                if (visibleTables === 0 && !$("#noTablesAlert").length) {
+                    $("#tablesList").append(alertMessage);
+                } else {
+                    $("#noTablesAlert").remove(); // Remove the alert if tables are found
+                }
+            });
         } else {
             // If status is false or data is empty, display a message
             var message = "<BR><BR><BR><div class='alert alert-danger' role='alert'>No tables found!</div>";
-            $("#tablesList").append(message);
+            $("#tablesList").html(message);
         }
     }).fail(function() {
         // If AJAX call fails, display an error message
         var errorMessage = "<div class='alert alert-danger' role='alert'>Error fetching data. Please try again later.</div>";
-        $("#tablesList").append(errorMessage);
+        $("#tablesList").html(errorMessage);
     });
 });
+
+
 </script>
 
 
