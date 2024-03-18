@@ -61,7 +61,12 @@
 <jsp:include page="header.jsp" />
 
 <div class="container mt-4">
-    <h2>Tables in Schema: <%= schemaName %></h2>
+    
+    <h2 class="d-flex justify-content-between">Tables in Schema: <%= schemaName %>
+    <input type="text" id="searchInput" class="form-control" style="width: 400px;" placeholder="Search table name...">
+</h2>
+
+    
     <BR>
     
     <div id="tablesList"></div>
@@ -79,10 +84,9 @@
 
 <script>
 $(document).ready(function() {
-	
-	//loader.
-	$("#tablesList").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
-	
+    //loader.
+    $("#tablesList").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
+
     // Retrieve tables info using AJAX
     $.get("${pageContext.request.contextPath}/tables", { schema: "<%= schemaName %>" }, function(response) {
         // Parse JSON response
@@ -91,10 +95,10 @@ $(document).ready(function() {
 
         // Check if status is true and data is not empty
         if (status && data && data.length > 0) {
-        	
+
             // Render tables list
             var tablesList = $("#tablesList");
-            tablesList.html(''); //remove the loader frst.
+            tablesList.html(''); //remove the loader first
             for (var i = 0; i < data.length; i++) {
                 var table = data[i];
                 var html = "<div class='card mb-4'>";
@@ -109,7 +113,7 @@ $(document).ready(function() {
                 html += "</div>";
                 html += "</div>";
                 html += "<div class='card-body'>";
-                
+
                 html += "<table class='table table-striped table-bordered'>";
                 html += "<thead><tr><th>Column Name</th><th>Column Type</th><th>Column Size</th></tr></thead>";
                 html += "<tbody>";
@@ -125,6 +129,19 @@ $(document).ready(function() {
                 html += "</div></div>";
                 tablesList.append(html);
             }
+
+            // Add event listener for search input
+            $("#searchInput").on("input", function() {
+                var searchText = $(this).val().toLowerCase();
+                $("#tablesList .card").each(function() {
+                    var tableName = $(this).find(".card-header span").text().toLowerCase();
+                    if (tableName.includes(searchText)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
         } else {
             // If status is false or data is empty, display a message
             var message = "<BR><BR><BR><div class='alert alert-danger' role='alert'>No tables found!</div>";
@@ -136,6 +153,7 @@ $(document).ready(function() {
         $("#tablesList").append(errorMessage);
     });
 });
+
 </script>
 
 
