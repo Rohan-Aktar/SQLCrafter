@@ -36,7 +36,7 @@
 </style>
 
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column">
 
 <%
     try {
@@ -55,6 +55,9 @@
 
     <!-- Include the header -->
     <jsp:include page="header.jsp" />
+    
+    <!-- Include sidebar.jsp -->
+	 <%//@ include file="sidebar.jsp" %>
 
     <!-- Page Content -->
     <div class="container mt-4">
