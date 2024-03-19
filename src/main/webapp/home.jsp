@@ -36,7 +36,7 @@
 </style>
 
 </head>
-<body class="d-flex flex-column min-vh-100">
+<body class="d-flex flex-column">
 
 <%
     try {
@@ -55,6 +55,9 @@
 
     <!-- Include the header -->
     <jsp:include page="header.jsp" />
+    
+    <!-- Include sidebar.jsp -->
+	 <%//@ include file="sidebar.jsp" %>
 
     <!-- Page Content -->
     <div class="container mt-4">
@@ -89,38 +92,41 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
 <script>
-    // Function to load database information
-    function loadDatabaseInfo() {
-        // Display loader while refreshing data
-        $("#databaseInfo").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
-		
-        setTimeout(function() {  //only for the delay..
-        	
-        // Call the DatabaseInfoServlet and update the #databaseInfo div with the result
-        $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
-            var schemas = data; // No need for JSON.parse here
-            var html = "<h4 class='mb-4 text-dark'>Database Information";
+//Function to load database information
+function loadDatabaseInfo() {
+    // Display loader while refreshing data
+    $("#databaseInfo").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
 
-            // Add reload button with background color
-            html += "<button class='btn btn-dark ms-4' onclick='loadDatabaseInfo()'>Reload</button>";
+    setTimeout(function() {  //only for the delay..
 
-            html += "</h4>";
-            html += "<table class='table table-bordered table-light table-striped table-hover'>";
-            html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th><th scope='col'>View</th><th scope='col'>Delete</th></tr></thead>";
-            html += "<tbody>";
+    // Call the DatabaseInfoServlet and update the #databaseInfo div with the result
+    $.get("${pageContext.request.contextPath}/databaseInfo", function(data) {
+        var schemas = data; // No need for JSON.parse here
+        var html = "<div class='card mb-4'>";
+        html += "<div class='card-header card-header-bg d-flex justify-content-between align-items-center'>";
+        html += "<h4 class='mb-0'><img src='${pageContext.request.contextPath}/resources/images/table.png' style='max-width: 50px; margin-right: 15px;' alt='schema Icon'>Database Information</h4>";
+        html += "<button class='btn btn-outline-secondary' onclick='loadDatabaseInfo()'><img src='${pageContext.request.contextPath}/resources/images/reload.png' style='max-width: 15px; margin-right: 5px;' alt='reload Icon'>Reload</button>";
+        html += "</div>";
+        html += "<div class='card-body'>";
+        html += "<table class='table table-bordered table-light table-striped table-hover'>";
+        html += "<thead class='bg-primary text-light'><tr><th scope='col'>Schema Name</th><th scope='col'>View</th><th scope='col'>Delete</th></tr></thead>";
+        html += "<tbody>";
 
-            for (var i = 0; i < schemas.length; i++) {
-                html += "<tr><td class='col-6'>" + schemas[i] + "</td>";
-                html += "<td class='col-2 text-center'><button class='btn btn-primary' onclick='redirectToTables(\"" + schemas[i] + "\")'>View Tables</button></td>";
-                html += "<td class='col-2 text-center'><button class='btn btn-danger' onclick='deleteSchema(\"" + schemas[i] + "\")'>Delete Schema</button></td></tr>";
-            }
+        for (var i = 0; i < schemas.length; i++) {
+            html += "<tr><td class='col-6'>" + schemas[i] + "</td>";
+            html += "<td class='col-2 text-center'><button class='btn btn-outline-primary' onclick='redirectToTables(\"" + schemas[i] + "\")'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 10px;' alt='View Icon'>View Tables</button></td>";
+            html += "<td class='col-2 text-center'><button class='btn btn-danger' onclick='deleteSchema(\"" + schemas[i] + "\")'><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 20px; margin-right: 10px;' alt='delete Icon'>Delete Schema</button></td></tr>";
+        }
 
-            html += "</tbody></table>";
-            $("#databaseInfo").html(html);
-        });
-        
-        },100); //1000 ms delay.
-    }
+        html += "</tbody></table>";
+        html += "</div></div>";
+        $("#databaseInfo").html(html);
+    });
+
+    },100); //1000 ms delay.
+}
+
+
 
     // Redirect to tables.jsp with the selected schema name
     function redirectToTables(schemaName) {
