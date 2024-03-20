@@ -91,7 +91,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-outline-primary" id="confirmView"><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+                <button type="button" class="btn btn-outline-primary confirmView"><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-outline-primary" id="confirmView"><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
             </div>
         </div>
     </div>
@@ -138,7 +138,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-outline-primary" id="confirmView"><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
             </div>
         </div>
     </div>
@@ -162,7 +162,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
-                <button type="button" class="btn btn-outline-primary" id="confirmView"><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
             </div>
         </div>
     </div>
@@ -312,7 +312,7 @@ function openDeleteModal() {
 
 
 // AJAX call on confirm button click
-$('#confirmView').click(function() {
+$('.confirmView').click(function() {
     // Perform AJAX call to confirm the view operation
     // Example:
     // $.post("viewDataConfirmationEndpoint", function(response) {
