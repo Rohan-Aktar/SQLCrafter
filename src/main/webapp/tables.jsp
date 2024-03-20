@@ -168,6 +168,32 @@
     </div>
 </div>
 
+<!-- delete table Modal -->
+<div class="modal fade" id="deleteTableModal" tabindex="-1" aria-labelledby="deleteTableModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteTableModalLabel"><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 35px; margin-right: 10px;' alt='delete Icon'>Delete Table</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                Delete Table <> Query
+                <br>
+                <br>
+                <br>
+                <br>
+                <textarea class="form-control" id="idQuery" rows="3" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Bootstrap Footer -->
@@ -208,7 +234,7 @@ $(document).ready(function() {
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openAddModal()'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='Add Icon'>Add</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openUpdateModal()'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='update Icon'>Update</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openDeleteModal()'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='delete Icon'>Delete Data</button>";
-                html += "<button class='btn btn-danger btn-sm'><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 20px; margin-right: 5px;' alt='delete2 Icon'>Delete Table</button>";
+                html += "<button class='btn btn-danger btn-sm' onclick='openDeleteTableModal()'><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 20px; margin-right: 5px;' alt='delete2 Icon'>Delete Table</button>";
                 html += "</div>";
                 html += "</div>";
                 html += "<div class='card-body'>";
@@ -309,6 +335,18 @@ function openDeleteModal() {
     // Show the modal
     $('#deleteDataModal').modal('show');
 }
+function openDeleteTableModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#deleteTableModal').modal('show');
+}
+
 
 
 // AJAX call on confirm button click
