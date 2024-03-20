@@ -72,6 +72,146 @@
     <div id="tablesList"></div>
 </div>
 
+<!-- Bootstrap Modals -->
+<!-- View Data Modal -->
+<div class="modal fade" id="viewDataModal" tabindex="-1" aria-labelledby="viewDataModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="viewDataModalLabel"><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>View Data</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                view data here!!!
+                <br>
+
+                hehe
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-outline-primary confirmView"><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Add Data Modal -->
+<div class="modal fade" id="addDataModal" tabindex="-1" aria-labelledby="addDataModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addDataModalLabel"><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 35px; margin-right: 10px;' alt='add Icon'>Add Data</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                add data here!!!
+                <br>
+
+                hehe
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- update Data Modal -->
+<div class="modal fade" id="updateDataModal" tabindex="-1" aria-labelledby="updateDataModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="updateDataModalLabel"><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 35px; margin-right: 10px;' alt='update Icon'>Update Data</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                update data here!!!
+                <br>
+
+                hehe
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- delete Data Modal -->
+<div class="modal fade" id="deleteDataModal" tabindex="-1" aria-labelledby="deleteDataModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteDataModalLabel"><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 35px; margin-right: 10px;' alt='delete Icon'>Delete Data</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                delete data here!!!
+                <br>
+
+                hehe
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- delete table Modal -->
+<div class="modal fade" id="deleteTableModal" tabindex="-1" aria-labelledby="deleteTableModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteTableModalLabel"><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 35px; margin-right: 10px;' alt='delete Icon'>Delete Table</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                Delete Table <> Query
+                <br>
+                <br>
+                <br>
+                <br>
+                <textarea class="form-control" id="idQuery" rows="4" placeholder="SQL Query..." readonly>CREATE DATABASE IF NOT EXISTS Crafter;
+CREATE DATABASE IF NOT EXISTS Dootam123;
+CREATE DATABASE IF NOT EXISTS DEMO;
+
+
+CREATE TABLE  Crafter.t_Crafter_users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+
+insert into Crafter.t_users (username, password,email)values('DOOTAM','Dootam123','xyz@gmail.com');
+insert into Crafter.t_users (username, password,email)values('ROHAN','Rohan123','xyzRohan@gmail.com');
+insert into Crafter.t_users (username, password,email)values('MASTER','MASTER123','xyzMASTER@gmail.com');
+
+select * from Crafter.users;
+
+</textarea>
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-outline-primary confirmView" ><img src='${pageContext.request.contextPath}/resources/images/confirm.png' style='max-width: 20px; margin-right: 5px;' alt='Confirm Icon'>Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Bootstrap Footer -->
@@ -108,11 +248,11 @@ $(document).ready(function() {
                 html += "<span style='margin-left: 10px;'><h4>" + table.tableName + "</h4></span>"; // Table name with left margin
                 html += "</div>"; // End of image and table name container
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='Add Icon'>Add</button>";
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='update Icon'>Update</button>";
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='delete Icon'>Delete Data</button>";
-                html += "<button class='btn btn-danger btn-sm'><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 20px; margin-right: 5px;' alt='delete2 Icon'>Delete Table</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openViewModal()'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openAddModal()'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='Add Icon'>Add</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openUpdateModal()'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='update Icon'>Update</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openDeleteModal()'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='delete Icon'>Delete Data</button>";
+                html += "<button class='btn btn-danger btn-sm' onclick='openDeleteTableModal()'><img src='${pageContext.request.contextPath}/resources/images/delete2.png' style='max-width: 20px; margin-right: 5px;' alt='delete2 Icon'>Delete Table</button>";
                 html += "</div>";
                 html += "</div>";
                 html += "<div class='card-body'>";
@@ -166,13 +306,85 @@ $(document).ready(function() {
     });
 });
 
+function openViewModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#viewDataModal').modal('show');
+}
+
+function openAddModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#addDataModal').modal('show');
+}
+
+function openUpdateModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#updateDataModal').modal('show');
+}
+
+function openDeleteModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#deleteDataModal').modal('show');
+}
+function openDeleteTableModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#deleteTableModal').modal('show');
+}
+
+
+
+// AJAX call on confirm button click
+$('.confirmView').click(function() {
+    // Perform AJAX call to confirm the view operation
+    // Example:
+    // $.post("viewDataConfirmationEndpoint", function(response) {
+    //     if (response.success) {
+    //         // Redirect to home.jsp on success
+    //         window.location.href = "home.jsp";
+    //     } else {
+    //         // Handle error case
+    //     }
+    // });
+
+    // For demonstration purpose, redirecting to home.jsp directly
+    window.location.href = "home.jsp";
+});
 
 </script>
-
-
-
-
-
 
 
 
