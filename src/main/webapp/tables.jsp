@@ -183,7 +183,25 @@
                 <br>
                 <br>
                 <br>
-                <textarea class="form-control" id="idQuery" rows="3" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
+                <textarea class="form-control" id="idQuery" rows="4" placeholder="SQL Query..." readonly>CREATE DATABASE IF NOT EXISTS Crafter;
+CREATE DATABASE IF NOT EXISTS Dootam123;
+CREATE DATABASE IF NOT EXISTS DEMO;
+
+
+CREATE TABLE  Crafter.t_Crafter_users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    email VARCHAR(50) NOT NULL
+);
+
+insert into Crafter.t_users (username, password,email)values('DOOTAM','Dootam123','xyz@gmail.com');
+insert into Crafter.t_users (username, password,email)values('ROHAN','Rohan123','xyzRohan@gmail.com');
+insert into Crafter.t_users (username, password,email)values('MASTER','MASTER123','xyzMASTER@gmail.com');
+
+select * from Crafter.users;
+
+</textarea>
                 <!-- You can customize this section based on your requirements -->
             </div>
             <div class="modal-footer">
