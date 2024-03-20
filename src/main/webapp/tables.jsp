@@ -72,6 +72,27 @@
     <div id="tablesList"></div>
 </div>
 
+<!-- Bootstrap Modals -->
+<!-- View Data Modal -->
+<div class="modal fade" id="viewDataModal" tabindex="-1" aria-labelledby="viewDataModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="viewDataModalLabel">View Data</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Data display area -->
+                <!-- You can customize this section based on your requirements -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="confirmView">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <!-- Bootstrap Footer -->
@@ -108,7 +129,7 @@ $(document).ready(function() {
                 html += "<span style='margin-left: 10px;'><h4>" + table.tableName + "</h4></span>"; // Table name with left margin
                 html += "</div>"; // End of image and table name container
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openViewModal()'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='Add Icon'>Add</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='update Icon'>Update</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='delete Icon'>Delete Data</button>";
@@ -166,13 +187,35 @@ $(document).ready(function() {
     });
 });
 
+function openViewModal() {
+    // Populate data in the modal body
+    // You can use AJAX to fetch data and populate the modal body dynamically
+    // Example:
+    // $.get("viewDataEndpoint", function(data) {
+    //     // Populate data in modal body
+    // });
+
+    // Show the modal
+    $('#viewDataModal').modal('show');
+}
+// AJAX call on confirm button click
+$('#confirmView').click(function() {
+    // Perform AJAX call to confirm the view operation
+    // Example:
+    // $.post("viewDataConfirmationEndpoint", function(response) {
+    //     if (response.success) {
+    //         // Redirect to home.jsp on success
+    //         window.location.href = "home.jsp";
+    //     } else {
+    //         // Handle error case
+    //     }
+    // });
+
+    // For demonstration purpose, redirecting to home.jsp directly
+    window.location.href = "home.jsp";
+});
 
 </script>
-
-
-
-
-
 
 
 
