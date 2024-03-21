@@ -309,8 +309,9 @@ function openViewModal(schemaName, tableName, columns) {
                 <thead>
                     <tr>
                         <th>Column Name</th>
-                        <th>Column Type</th>
-                        <th>Column Size</th>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Value</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -318,9 +319,10 @@ function openViewModal(schemaName, tableName, columns) {
     for (var j = 0; j < columns.length; j++) {
         var column = columns[j];
         html += "<tr>";
-        html += "<td class='col-6'>" + column.columnName + "</td>";
-        html += "<td class='col-3'>" + column.columnType + "</td>";
-        html += "<td class='col-3'>" + column.columnSize + "</td>";
+        html += "<td class='col-3'>" + column.columnName + "</td>";
+        html += "<td class='col-1'>" + column.columnType + "</td>";
+        html += "<td class='col-1'>" + column.columnSize + "</td>";
+        html += "<td class='col-3'> <input type='text' id='viewInput"+j+"' class='form-control' style='' placeholder=''> </td>";
         html += "</tr>";
     }
     html += `
