@@ -78,7 +78,10 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="viewDataModalLabel"><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>View Data</h5>
+                <h5 class="modal-title" id="viewDataModalLabel">
+                	<img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>
+                	View Data
+                </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -87,6 +90,7 @@
                 <br>
 
                 hehe
+                <textarea class="form-control" id="ViewTableQuery" rows="5" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
                 <!-- You can customize this section based on your requirements -->
             </div>
             <div class="modal-footer">
@@ -110,6 +114,7 @@
                 <br>
 
                 hehe
+                <textarea class="form-control" id="AddTableQuery" rows="5" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
                 <!-- You can customize this section based on your requirements -->
             </div>
             <div class="modal-footer">
@@ -134,6 +139,7 @@
                 <br>
 
                 hehe
+                <textarea class="form-control" id="UpdateTableQuery" rows="5" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
                 <!-- You can customize this section based on your requirements -->
             </div>
             <div class="modal-footer">
@@ -158,6 +164,7 @@
                 <br>
 
                 hehe
+                <textarea class="form-control" id="DeleteDataQuery" rows="5" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
                 <!-- You can customize this section based on your requirements -->
             </div>
             <div class="modal-footer">
@@ -183,25 +190,7 @@
                 <br>
                 <br>
                 <br>
-                <textarea class="form-control" id="idQuery" rows="4" placeholder="SQL Query..." readonly>CREATE DATABASE IF NOT EXISTS Crafter;
-CREATE DATABASE IF NOT EXISTS Dootam123;
-CREATE DATABASE IF NOT EXISTS DEMO;
-
-
-CREATE TABLE  Crafter.t_Crafter_users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    password VARCHAR(255) NOT NULL,
-    email VARCHAR(50) NOT NULL
-);
-
-insert into Crafter.t_users (username, password,email)values('DOOTAM','Dootam123','xyz@gmail.com');
-insert into Crafter.t_users (username, password,email)values('ROHAN','Rohan123','xyzRohan@gmail.com');
-insert into Crafter.t_users (username, password,email)values('MASTER','MASTER123','xyzMASTER@gmail.com');
-
-select * from Crafter.users;
-
-</textarea>
+                <textarea class="form-control" id="DeleteTableQuery" rows="5" placeholder="SQL Query..." readonly>DROP TABLE SCHEMA_NAME.TABLE_NAME</textarea>
                 <!-- You can customize this section based on your requirements -->
             </div>
             <div class="modal-footer">
@@ -248,7 +237,7 @@ $(document).ready(function() {
                 html += "<span style='margin-left: 10px;'><h4>" + table.tableName + "</h4></span>"; // Table name with left margin
                 html += "</div>"; // End of image and table name container
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openViewModal()'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick=\"openViewModal('<%= schemaName %>', '" + table.tableName + "', " + JSON.stringify(table.columns).replace(/"/g, "&quot;") + ")\"><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openAddModal()'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='Add Icon'>Add</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openUpdateModal()'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='update Icon'>Update</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openDeleteModal()'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='delete Icon'>Delete Data</button>";
@@ -306,7 +295,45 @@ $(document).ready(function() {
     });
 });
 
-function openViewModal() {
+function openViewModal(schemaName, tableName, columns) {
+    // Display the schema name, table name, and columns in an alert
+    //alert("Schema Name: " + schemaName + "\nTable Name: " + tableName + "\nColumns: " + JSON.stringify(columns));
+
+    // Set the modal header with schema name and table name
+    $('#viewDataModalLabel').html("<img src='" + "${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>View Data -    " + schemaName + "." + tableName);
+
+    // Populate data in the modal body for the table
+    var html = `
+        <div class='card-body'>
+            <table class='table table-striped table-bordered'>
+                <thead>
+                    <tr>
+                        <th>Column Name</th>
+                        <th>Type</th>
+                        <th>Size</th>
+                        <th>Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    for (var j = 0; j < columns.length; j++) {
+        var column = columns[j];
+        html += "<tr>";
+        html += "<td class='col-3'>" + column.columnName + "</td>";
+        html += "<td class='col-1'>" + column.columnType + "</td>";
+        html += "<td class='col-1'>" + column.columnSize + "</td>";
+        html += "<td class='col-3'> <input type='text' id='viewInput"+j+"' class='form-control' style='' placeholder=''> </td>";
+        html += "</tr>";
+    }
+    html += `
+                </tbody>
+            </table>
+        </div>
+    `;
+
+    // Set the modal body with the generated HTML
+    $('#viewDataModal .modal-body').html(html);
+    
     // Populate data in the modal body
     // You can use AJAX to fetch data and populate the modal body dynamically
     // Example:
@@ -317,6 +344,7 @@ function openViewModal() {
     // Show the modal
     $('#viewDataModal').modal('show');
 }
+
 
 function openAddModal() {
     // Populate data in the modal body
