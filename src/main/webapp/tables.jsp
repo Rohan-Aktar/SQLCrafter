@@ -78,7 +78,10 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="viewDataModalLabel"><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>View Data</h5>
+                <h5 class="modal-title" id="viewDataModalLabel">
+                	<img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>
+                	View Data
+                </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -234,7 +237,7 @@ $(document).ready(function() {
                 html += "<span style='margin-left: 10px;'><h4>" + table.tableName + "</h4></span>"; // Table name with left margin
                 html += "</div>"; // End of image and table name container
                 html += "<div>"; // Right side buttons
-                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openViewModal()'><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
+                html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick=\"openViewModal('<%= schemaName %>', '" + table.tableName + "', " + JSON.stringify(table.columns).replace(/"/g, "&quot;") + ")\"><img src='${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 20px; margin-right: 5px;' alt='View Icon'>view</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openAddModal()'><img src='${pageContext.request.contextPath}/resources/images/add.png' style='max-width: 20px; margin-right: 5px;' alt='Add Icon'>Add</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openUpdateModal()'><img src='${pageContext.request.contextPath}/resources/images/update.png' style='max-width: 20px; margin-right: 5px;' alt='update Icon'>Update</button>";
                 html += "<button class='btn btn-outline-primary me-2 btn-sm' onclick='openDeleteModal()'><img src='${pageContext.request.contextPath}/resources/images/delete.png' style='max-width: 20px; margin-right: 5px;' alt='delete Icon'>Delete Data</button>";
@@ -292,7 +295,43 @@ $(document).ready(function() {
     });
 });
 
-function openViewModal() {
+function openViewModal(schemaName, tableName, columns) {
+    // Display the schema name, table name, and columns in an alert
+    //alert("Schema Name: " + schemaName + "\nTable Name: " + tableName + "\nColumns: " + JSON.stringify(columns));
+
+    // Set the modal header with schema name and table name
+    $('#viewDataModalLabel').html("<img src='" + "${pageContext.request.contextPath}/resources/images/search.png' style='max-width: 35px; margin-right: 10px;' alt='view Icon'>View Data -    " + schemaName + "." + tableName);
+
+    // Populate data in the modal body for the table
+    var html = `
+        <div class='card-body'>
+            <table class='table table-striped table-bordered'>
+                <thead>
+                    <tr>
+                        <th>Column Name</th>
+                        <th>Column Type</th>
+                        <th>Column Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    for (var j = 0; j < columns.length; j++) {
+        var column = columns[j];
+        html += "<tr>";
+        html += "<td class='col-6'>" + column.columnName + "</td>";
+        html += "<td class='col-3'>" + column.columnType + "</td>";
+        html += "<td class='col-3'>" + column.columnSize + "</td>";
+        html += "</tr>";
+    }
+    html += `
+                </tbody>
+            </table>
+        </div>
+    `;
+
+    // Set the modal body with the generated HTML
+    $('#viewDataModal .modal-body').html(html);
+    
     // Populate data in the modal body
     // You can use AJAX to fetch data and populate the modal body dynamically
     // Example:
@@ -303,6 +342,7 @@ function openViewModal() {
     // Show the modal
     $('#viewDataModal').modal('show');
 }
+
 
 function openAddModal() {
     // Populate data in the modal body
