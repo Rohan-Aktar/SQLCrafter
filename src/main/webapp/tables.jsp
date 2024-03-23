@@ -311,6 +311,7 @@ function openViewModal(schemaName, tableName, columns) {
                         <th>Column Name</th>
                         <th>Type</th>
                         <th>Size</th>
+                        <th>Where</th>
                         <th>Value</th>
                     </tr>
                 </thead>
@@ -322,6 +323,7 @@ function openViewModal(schemaName, tableName, columns) {
         html += "<td class='col-3'>" + column.columnName + "</td>";
         html += "<td class='col-1'>" + column.columnType + "</td>";
         html += "<td class='col-1'>" + column.columnSize + "</td>";
+        html += "<td class='col-2'> <select id='operatorSelect" + j + "' class='form-control'> <option value='='>=</option> <option value='LIKE'>LIKE</option> <option value='IN'>IN</option> <option value='NOT IN'>NOT IN</option> <option value='!='>!=</option> <option value='NOT LIKE'>NOT LIKE</option> </select> </td>";
         html += "<td class='col-3'> <input type='text' id='viewInput"+j+"' class='form-control' style='' placeholder=''> </td>";
         html += "</tr>";
     }

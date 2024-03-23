@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 //@WebFilter("/*")
-@WebFilter(urlPatterns = {"/*"}, initParams = {@WebInitParam(name = "excludedUrls", value = "/login,/logout,/login.jsp")})
+@WebFilter(urlPatterns = {"/*"}, initParams = {@WebInitParam(name = "excludedUrls", value = "/login,/login.jsp")})
 
 public class SessionFilter implements Filter {
 	
