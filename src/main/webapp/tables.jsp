@@ -312,6 +312,12 @@ function openViewModal(schemaName, tableName, columns) {
                         <th>Type</th>
                         <th>Size</th>
                         <th>Where</th>
+                        
+                        <th>schema</th>
+                        <th>table</th>
+                        <th>column</th>
+                        <th>&nbsp;</th>
+                        
                         <th>Value</th>
                     </tr>
                 </thead>
@@ -324,6 +330,13 @@ function openViewModal(schemaName, tableName, columns) {
         html += "<td class='col-1'>" + column.columnType + "</td>";
         html += "<td class='col-1'>" + column.columnSize + "</td>";
         html += "<td class='col-2'> <select id='operatorSelect" + j + "' class='form-control'> <option value='='>=</option> <option value='LIKE'>LIKE</option> <option value='IN'>IN</option> <option value='NOT IN'>NOT IN</option> <option value='!='>!=</option> <option value='NOT LIKE'>NOT LIKE</option> </select> </td>";
+        
+        html += "<td class='col-2'> <select id='SchemaSelect" + j + "' class='form-control'> <option value=''</option> <option value='schema'>schema</option> </select> </td>";
+        html += "<td class='col-2'> <select id='tableSelect" + j + "' class='form-control'> <option value=table='>table</option> <option value='table'>table</option> </select> </td>";
+        html += "<td class='col-2'> <select id='columnSelect" + j + "' class='form-control'> <option value='column'>column</option> <option value='column'>column</option> </select> </td>";
+
+        html += "<td class='col-1'> <input type='text' id='andInput"+j+"' class='form-control' style='' placeholder=''> </td>";
+        
         html += "<td class='col-3'> <input type='text' id='viewInput"+j+"' class='form-control' style='' placeholder=''> </td>";
         html += "</tr>";
     }
