@@ -130,7 +130,7 @@ function loadDatabaseInfo() {
 
     // Redirect to tables.jsp with the selected schema name
     function redirectToTables(schemaName) {
-        window.location.href = "${pageContext.request.contextPath}/tables.jsp?schema=" + encodeURIComponent(schemaName);
+        window.location.href = "${pageContext.request.contextPath}/tables.jsp?event=GET_ALL_TABLES_FOR_SCHEMA&schema=" + encodeURIComponent(schemaName);
     }
 
     // Function to handle schema deletion

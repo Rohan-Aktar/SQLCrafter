@@ -218,7 +218,7 @@ $(document).ready(function() {
     $("#tablesList").html("<div class='text-center'><div class='spinner-border text-primary' style='width: 3rem; height: 3rem;' role='status'></div></div>");
 
     // Retrieve tables info using AJAX
-    $.get("${pageContext.request.contextPath}/tables", { schema: "<%= schemaName %>" }, function(response) {
+    $.get("${pageContext.request.contextPath}/tables", { event:"GET_ALL_TABLES_FOR_SCHEMA", schema: "<%= schemaName %>" }, function(response) {
         // Parse JSON response
         var data = response.tables;
         var status = response.status;
