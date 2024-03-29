@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Tables Page</title>
+    <title>SQLCrafter</title>
     <!-- Latest Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons CSS -->
@@ -38,6 +38,7 @@
         color: #ffffff; 
     }*/
     
+    
 </style>
     
 </head>
@@ -57,20 +58,48 @@
         // Display tables here
 %>
 
-<!-- Include the header -->
-<jsp:include page="header.jsp" />
-
-<div class="container mt-4">
+    <!-- Include the header -->
+    <jsp:include page="header.jsp" />
     
+<div id="wrap">
+
+
+    <div id="main" class="container mt-0">
+        
     <h2 class="d-flex justify-content-between">Tables in Schema: <%= schemaName %>
+
     <input type="text" id="searchInput" class="form-control" style="width: 400px;" placeholder="Search table name...">
+
 	</h2>
 
-    
-    <BR>
-    
-    <div id="tablesList"></div>
+        <div class="row">
+            <!-- Schema Info Card -->
+            <div class="col-md-3">
+                <div class="card mb-0 h-100" style="min-height: 100vh; padding-bottom: 50px">
+                    <div class="card-body">
+                        <h5 class="card-title">Schema Info</h5>
+                        <p class="card-text">Schema Name: <%= schemaName %></p>
+                        <!-- Add more schema info here if needed -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tables List -->
+            <div class="col-md-9">
+                <div id="tablesList">
+                    <div class="text-center">
+                        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
+
+    <!-- Bootstrap Footer -->
+    <jsp:include page="footer.jsp" />
 
 <!-- Bootstrap Modals -->
 <!-- View Data Modal -->
@@ -202,9 +231,6 @@
 </div>
 
 
-
-<!-- Bootstrap Footer -->
-<jsp:include page="footer.jsp" />
 
 <!-- Latest Bootstrap JS and Popper.js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
