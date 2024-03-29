@@ -17,6 +17,9 @@
     /* Add your custom styles here */
     body {
         background-color: #f8f9fa; /* Set a light background color */
+        min-height: 100vh; /* Set a minimum height to the body */
+        display: flex;
+        flex-direction: column;
     }
 
     .navbar {
@@ -26,14 +29,15 @@
     .footer {
         background-color: #343a40; /* Set a dark color for the footer */
         color: #ffffff; /* Set text color to white */
+        margin-top: auto; /* Push the footer to the bottom */
     }
     
     .btn-custom-color {
         background-color: #f8f9fa; /* Set a light background color */
         color: #ffffff; /* Text color (white in this example) */
     }
-    
 </style>
+
 
 </head>
 <body class="d-flex flex-column">
@@ -60,6 +64,7 @@
 	 <%//@ include file="sidebar.jsp" %>
 
     <!-- Page Content -->
+    <div id="main">
     <div class="container mt-4">
         <h2>Welcome, <%= user.getUsername() %>!</h2>
         <p>Welcome to SQLCrafter, your versatile companion for managing relational databases effortlessly! SQLCrafter is a Java (jdk1.8) Jsp Servlet project designed to streamline the visualization of tables and empower users with seamless CRUD (Create, Read, Update, Delete) operations within their database tables.</p>
@@ -79,7 +84,7 @@
     
     
     
-
+	</div>
     <!-- Bootstrap Footer -->
     
     <!-- Include the footer -->
