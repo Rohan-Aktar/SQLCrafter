@@ -29,7 +29,7 @@ public class UserDataAccessObject {
 	 System.out.println("password:  "+password);
 	 
 	 UserModel user = null;
-     String query = "SELECT * FROM users WHERE username = ? AND password = ?";
+     String query = "SELECT * FROM t_Crafter_users WHERE username = ? AND password = ?";
 
      try (PreparedStatement statement = connection.prepareStatement(query)) {
          statement.setString(1, username);
