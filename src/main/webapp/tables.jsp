@@ -38,6 +38,10 @@
         color: #ffffff; 
     }*/
     
+    #main {
+        padding-bottom: 50px; /* Add padding to the bottom of the main content */
+    }
+    
     
 </style>
     
@@ -66,7 +70,7 @@
 
     <div id="main" class="container mt-0">
         
-    <h2 class="d-flex justify-content-between">Tables in Schema: <%= schemaName %>
+    <h2 class="d-flex justify-content-between" style="padding: 20px 20px;">Tables in Schema: <%= schemaName %>
 
     <input type="text" id="searchInput" class="form-control" style="width: 400px;" placeholder="Search table name...">
 
@@ -74,8 +78,8 @@
 
         <div class="row">
             <!-- Schema Info Card -->
-            <div class="col-md-3">
-                <div class="card mb-0 h-100" style="min-height: 100vh; padding-bottom: 50px">
+            <div class="col-md-4">
+                <div class="card mb-0 h-100" style="min-height: 100vh;">
                     <div class="card-body">
                         <h5 class="card-title">Schema Info</h5>
                         <p class="card-text">Schema Name: <%= schemaName %></p>
@@ -85,7 +89,7 @@
             </div>
 
             <!-- Tables List -->
-            <div class="col-md-9">
+            <div class="col-md-8">
                 <div id="tablesList">
                     <div class="text-center">
                         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status"></div>
