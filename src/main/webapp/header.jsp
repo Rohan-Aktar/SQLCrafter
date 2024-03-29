@@ -37,7 +37,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="demo">Welcome, <%= strUser %></a>
+                    <a class="nav-link text-white" href="${pageContext.request.contextPath}/account">Welcome, <%= strUser %></a>
                 </li>
                 <%if(sessionExistFlag){ %>
                 <li class="nav-item">
