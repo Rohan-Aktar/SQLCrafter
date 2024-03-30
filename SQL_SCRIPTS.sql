@@ -7,21 +7,19 @@ CREATE TABLE  Crafter.t_Crafter_users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
-    email VARCHAR(50) NOT NULL
+    email VARCHAR(50) NOT NULL,
+    role_id INT,
+    user_creation_date date,
+    user_updation_date date,
+    user_status varchar(1) DEFAULT('A')
 );
-
-ALTER TABLE Crafter.t_Crafter_users
-ADD COLUMN role_id INT,
-ADD COLUMN user_creation_date date,
-ADD COLUMN user_updation_date date,
-ADD COLUMN user_status varchar(1) DEFAULT('A')
-;
 
 
 insert into Crafter.t_Crafter_users (username, password,email)values('DOOTAM','Dootam123','xyz@gmail.com');
 insert into Crafter.t_Crafter_users (username, password,email)values('ROHAN','Rohan123','xyzRohan@gmail.com');
 insert into Crafter.t_Crafter_users (username, password,email)values('MASTER','MASTER123','xyzMASTER@gmail.com');
 
+--update Crafter.t_Crafter_users set user_creation_date=SYSDATE() where user_status='A';
 select * from Crafter.t_Crafter_users;
 
 
