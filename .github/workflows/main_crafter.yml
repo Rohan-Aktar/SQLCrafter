@@ -46,5 +46,5 @@ jobs:
         with:
           app-name: 'Crafter'
           slot-name: 'Production'
-          package: ${{ github.workspace }}/target/*.war
+          package: '/home/runner/work/SQLCrafter/SQLCrafter/target/*.war'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B6E3AD601DE74E788287217AD69BD0D3 }}
