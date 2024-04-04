@@ -1,6 +1,7 @@
 # SQLCrafter 
 
 [![Java CI with Maven](https://github.com/dootamroy/SQLCrafter/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/dootamroy/SQLCrafter/actions/workflows/maven.yml)
+[![Build and deploy WAR app to Azure Web App - Crafter](https://github.com/dootamroy/SQLCrafter/actions/workflows/main_crafter.yml/badge.svg)](https://github.com/dootamroy/SQLCrafter/actions/workflows/main_crafter.yml)
 
 
 ## About SQLCrafter

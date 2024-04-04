@@ -1,2 +1,11 @@
 /build/
 /target/
+
+
+# OS generated files #
+######################
+.DS_Store
+
+# .github/workflows files #
+###########################
+.github/workflows/main_crafter.yml
