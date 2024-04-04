@@ -19,7 +19,7 @@ jobs:
           java-version: '8'
 
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn clean package
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -46,5 +46,5 @@ jobs:
         with:
           app-name: 'Crafter'
           slot-name: 'Production'
-          package: '/home/runner/work/SQLCrafter/SQLCrafter/target/*.war'
+          package: '${{ github.workspace }}/target/*.war'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B6E3AD601DE74E788287217AD69BD0D3 }}
