@@ -17,8 +17,8 @@ public class DBConnectionClass {
         Connection connection = null;
 
         try {
-            Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
-            System.setOut(new PrintStream(log4jOutputStream, true));
+            //Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
+            //System.setOut(new PrintStream(log4jOutputStream, true));
         	
         	System.out.println("Connecting to DB...");
         	

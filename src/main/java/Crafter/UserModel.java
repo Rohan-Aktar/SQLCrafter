@@ -11,9 +11,9 @@ public class UserModel {
     
     public UserModel(){
     	
-    	Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
+    	//Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
         // Set Log4jOutputStream as the standard output stream
-        System.setOut(new PrintStream(log4jOutputStream, true));
+        //System.setOut(new PrintStream(log4jOutputStream, true));
     	
     	System.out.println("in UserModel()...");
 	

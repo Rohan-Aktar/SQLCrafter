@@ -14,9 +14,9 @@ public class UserDataAccessObject {
      // Initialize database connection (implement this)
      this.connection = DBConnectionClass.getConnection();
      
-     Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
+     //Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
      // Set Log4jOutputStream as the standard output stream
-     System.setOut(new PrintStream(log4jOutputStream, true));
+     //System.setOut(new PrintStream(log4jOutputStream, true));
  	
  	 System.out.println("Inside UserDataAccessObject() ...");
  }

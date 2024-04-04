@@ -21,14 +21,15 @@ public class LoginController extends HttpServlet {
 	public LoginController() {
         super();
         
-        Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
+        //Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
         // Set Log4jOutputStream as the standard output stream
-        System.setOut(new PrintStream(log4jOutputStream, true));
+        //System.setOut(new PrintStream(log4jOutputStream, true));
         
         try {
             System.out.println("LoginController().. ");
         } catch (Exception e) {
-            e.printStackTrace(System.out);
+            //e.printStackTrace(System.out);
+        	e.printStackTrace();
         }
     }
 	

@@ -42,6 +42,7 @@ public class SessionFilter implements Filter {
 	    catch (Exception e) {
 	        // Handle initialisation error
 	        e.printStackTrace(System.out);
+	      //e.printStackTrace();
 	        throw new ServletException("Error initializing SessionFilter", e);
 	    }
 	}
@@ -110,6 +111,7 @@ public class SessionFilter implements Filter {
         } catch (Exception e) {
             // Handle any exceptions here
             e.printStackTrace(System.out); // For debugging purposes
+        	//e.printStackTrace();
             throw new ServletException("An error occurred in SessionFilter", e);
         }
     }
