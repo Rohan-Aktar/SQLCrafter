@@ -27,13 +27,28 @@
 	</dependency>
 	<!-- log4j -->
 	
-	<!-- jdbc -->
+	<!-- mysql jdbc -->
 	<dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>8.0.28</version> <!-- Use the latest version available -->
     </dependency>
     <!-- jdbc -->
+    
+<!-- T-SQL JDBC driver -->
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>9.4.0.jre8</version> <!-- Use the latest version available -->
+</dependency>
+
+<!-- Oracle JDBC driver -->
+<dependency>
+    <groupId>com.oracle.database.jdbc</groupId>
+    <artifactId>ojdbc8</artifactId>
+    <version>19.8.0.0</version> <!-- Use the latest version available -->
+</dependency>
+
     
 	<dependency>
    		<groupId>com.google.code.gson</groupId>
