@@ -38,6 +38,9 @@ values
         'xyzMASTER@gmail.com',
         SYSDATE()
     );
+    
+INSERT INTO t_Crafter_users (username, [password], email, user_creation_date)
+VALUES ('GUEST', 'GUEST123', 'xyzMASTER@gmail.com', GETDATE());
 
 --update Crafter.t_Crafter_users set role_id=1 where user_status='A';
 select
