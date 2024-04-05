@@ -20,7 +20,7 @@
             
         }
         else{
-        	System.out.println("Inside header.jsp User::: "+ userCrafter.getUsername());
+        	System.out.println("Inside header.jsp User:::"+ userCrafter.getUsername());
         	strUser=userCrafter.getUsername();
         	sessionExistFlag=true;
         }
