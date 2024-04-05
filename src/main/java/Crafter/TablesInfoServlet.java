@@ -92,7 +92,8 @@ public class TablesInfoServlet extends HttpServlet {
             
         } catch (SQLException e) {
             System.out.println("getTablesInfo()..  Error Occurred!!!");
-            e.printStackTrace(System.out);
+            //e.printStackTrace(System.out);
+            e.printStackTrace();
         }
         return tablesResponse;
     }
@@ -128,7 +129,8 @@ public class TablesInfoServlet extends HttpServlet {
             
         } catch (SQLException e) {
             System.out.println("getTablesInfo()..  Error Occurred!!!");
-            e.printStackTrace(System.out);
+            //e.printStackTrace(System.out);
+            e.printStackTrace();
         }
         return tablesResponse;
     }
