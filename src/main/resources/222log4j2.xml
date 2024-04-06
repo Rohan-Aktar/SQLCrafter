@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- JDBC Appender to log to SQL Server database -->
+        <JDBC name="databaseAppender" tableName="logs">
+            <DataSource jndiName="java:/comp/env/jdbc/sqlcrafter"/>
+            <Column name="timestamp" isEventTimestamp="true"/>
+            <Column name="level" pattern="%level"/>
+            <Column name="logger" pattern="%logger"/>
+            <Column name="message" pattern="%message"/>
+        </JDBC>
+        
+        <!-- File Appender (Optional) -->
+        <File name="File" fileName="/Users/dootamroy/Documents/GitHub/SQLCrafter/apache-tomcat-8.5.99/LOG_FILE.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <!-- JDBC Logger -->
+        <Logger name="Crafter" level="info" additivity="false">
+            <AppenderRef ref="databaseAppender"/>
+        </Logger>
+        
+        <!-- File Logger (Optional) -->
+        <Root level="info">
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>

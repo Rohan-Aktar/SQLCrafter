@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Login Page</title>
+    <title>SQLCrafter</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="${pageContext.request.contextPath}/resources/images/logo.png" type="image/x-icon">
+    
     <!-- Latest Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -42,6 +46,11 @@
         .btn-primary:hover {
             background-color: #4fbfd4;
         }
+
+        /* Add space between buttons */
+        .btn-group .btn {
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
@@ -52,7 +61,7 @@
                     <h2 class="display-6">Login</h2>
                 </div>
                 <div class="card-body">
-                    <form action="${pageContext.request.contextPath}/login" method="post">
+                    <form id="loginForm" action="${pageContext.request.contextPath}/login" method="post">
                         <div class="mb-3">
                             <label for="username" class="form-label">Username :</label>
                             <input type="text" class="form-control" id="username" name="username" required>
@@ -63,16 +72,15 @@
                             <input type="password" class="form-control" id="password" name="password" required>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        <div class="btn-group">
+                            <button type="submit" class="btn btn-primary btn-block">Login</button>
+                            <button type="button" class="btn btn-secondary btn-block" onclick="loginAsGuest()">Login as a Guest</button>
+                        </div>
                     </form>
 
                     <!-- Display error message if login fails -->
                     <c:if test="${requestScope.error == 'invalid'}">
                         <p class="text-danger mt-3">Invalid username or password.</p>
-                            <script>
-        						// Open a small window with error.jsp content
-        						//window.open("${pageContext.request.contextPath}/error.jsp", "errorWindow", "width=400,height=200");
-   	 						</script>
                     </c:if>
                 </div>
             </div>
@@ -81,5 +89,14 @@
 
     <!-- Latest Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Script -->
+    <script>
+        function loginAsGuest() {
+            document.getElementById('username').value = 'GUEST';
+            document.getElementById('password').value = 'GUEST123';
+            document.getElementById('loginForm').submit();
+        }
+    </script>
 </body>
 </html>
