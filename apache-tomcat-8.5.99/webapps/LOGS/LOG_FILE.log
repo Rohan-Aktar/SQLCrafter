@@ -1,0 +1,156 @@
+2024-04-07 14:59:33.041 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-04-07 14:59:33.050 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/login.jsp,/demo
+2024-04-07 14:59:34.520 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-07 14:59:34.521 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-07 14:59:34.521 [http-nio-8080-exec-8] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-07 14:59:36.343 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-04-07 14:59:36.344 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-04-07 14:59:36.344 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-07 14:59:36.344 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-07 14:59:36.346 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Connecting to Azure T-SQL DB...
+2024-04-07 14:59:36.759 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Connected to Azure T-SQL DB...
+2024-04-07 14:59:36.759 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-07 14:59:36.759 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-07 14:59:36.760 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-07 14:59:36.760 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-07 14:59:36.893 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-04-07 14:59:36.901 [http-nio-8080-exec-2] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-04-07 14:59:36.906 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?
+2024-04-07 14:59:36.906 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-04-07 14:59:36.906 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-07 14:59:36.910 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-04-07 14:59:36.913 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-04-07 14:59:36.914 [http-nio-8080-exec-10] INFO  Crafter.Log4jOutputStream - Inside header.jsp User:::GUEST
+2024-04-07 14:59:37.282 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-07 14:59:37.282 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-04-07 14:59:37.282 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-07 14:59:37.282 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-07 14:59:37.856 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-07 14:59:37.941 [http-nio-8080-exec-3] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["crafter","information_schema","mysql","performance_schema","sys"]
+2024-04-07 14:59:37.949 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-07 14:59:37.949 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/table.png
+2024-04-07 14:59:37.949 [http-nio-8080-exec-6] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-07 14:59:37.949 [http-nio-8080-exec-4] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-07 14:59:37.950 [http-nio-8080-exec-1] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-07 14:59:37.950 [http-nio-8080-exec-4] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/reload.png
+2024-04-07 14:59:37.950 [http-nio-8080-exec-4] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-07 14:59:37.950 [http-nio-8080-exec-6] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/search.png
+2024-04-07 14:59:37.950 [http-nio-8080-exec-9] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-07 14:59:37.950 [http-nio-8080-exec-6] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-07 14:59:37.950 [http-nio-8080-exec-9] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/delete2.png
+2024-04-07 14:59:37.950 [http-nio-8080-exec-9] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-07 15:13:43.807 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 2024-04-07 15:13:43,805 ContainerBackgroundProcessor[StandardEngine[Catalina]] ERROR FileManager (/site/wwwroot/webapps/LOGS/LOG_FILE.log) java.io.IOException: Could not create directory /site/wwwroot/webapps/LOGS java.io.IOException: Could not create directory /site/wwwroot/webapps/LOGS
+2024-04-07 15:13:43.808 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.util.FileUtils.mkdir(FileUtils.java:120)
+2024-04-07 15:13:43.808 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.util.FileUtils.makeParentDirs(FileUtils.java:137)
+2024-04-07 15:13:43.808 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileManager$FileManagerFactory.createManager(FileManager.java:434)
+2024-04-07 15:13:43.808 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileManager$FileManagerFactory.createManager(FileManager.java:422)
+2024-04-07 15:13:43.808 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:113)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:100)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileManager.getFileManager(FileManager.java:182)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileAppender$Builder.build(FileAppender.java:96)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileAppender$Builder.build(FileAppender.java:52)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:122)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1000)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:940)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:932)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:551)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:241)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:287)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:627)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:700)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:717)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:272)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at Crafter.Log4jOutputStream.<clinit>(Log4jOutputStream.java:13)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.init(SessionFilter.java:29)
+2024-04-07 15:13:43.809 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:272)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:254)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:100)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4290)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4925)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:280)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5256)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+2024-04-07 15:13:43.810 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 2024-04-07 15:13:43,814 ContainerBackgroundProcessor[StandardEngine[Catalina]] ERROR Could not create plugin of type class org.apache.logging.log4j.core.appender.FileAppender for element File: java.lang.IllegalStateException: ManagerFactory [org.apache.logging.log4j.core.appender.FileManager$FileManagerFactory@4203fd53] unable to create manager for [/site/wwwroot/webapps/LOGS/LOG_FILE.log] with data [org.apache.logging.log4j.core.appender.FileManager$FactoryData@45a4e0b6] java.lang.IllegalStateException: ManagerFactory [org.apache.logging.log4j.core.appender.FileManager$FileManagerFactory@4203fd53] unable to create manager for [/site/wwwroot/webapps/LOGS/LOG_FILE.log] with data [org.apache.logging.log4j.core.appender.FileManager$FactoryData@45a4e0b6]
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:115)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:100)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileManager.getFileManager(FileManager.java:182)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileAppender$Builder.build(FileAppender.java:96)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.appender.FileAppender$Builder.build(FileAppender.java:52)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:122)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1000)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:940)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:932)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:551)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:241)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:287)
+2024-04-07 15:13:43.815 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:627)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:700)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:717)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:272)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at Crafter.Log4jOutputStream.<clinit>(Log4jOutputStream.java:13)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.init(SessionFilter.java:29)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:272)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:254)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:100)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4290)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4925)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:280)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5256)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+2024-04-07 15:13:43.816 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 2024-04-07 15:13:43,817 ContainerBackgroundProcessor[StandardEngine[Catalina]] ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.appender.FileAppender for element File: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.appender.FileAppender java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.appender.FileAppender
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:234)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:134)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1000)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:940)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:932)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:551)
+2024-04-07 15:13:43.817 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:241)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:287)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:627)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:700)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:717)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:272)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:155)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:47)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.LogManager.getContext(LogManager.java:196)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.logging.log4j.LogManager.getLogger(LogManager.java:599)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at Crafter.Log4jOutputStream.<clinit>(Log4jOutputStream.java:13)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.init(SessionFilter.java:29)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.initFilter(ApplicationFilterConfig.java:272)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:254)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:100)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4290)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4925)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3547)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.loader.WebappLoader.backgroundProcess(WebappLoader.java:280)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContext.backgroundProcess(StandardContext.java:5256)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1333)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1337)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1305)
+2024-04-07 15:13:43.818 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-04-07 15:13:43.819 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 2024-04-07 15:13:43,819 ContainerBackgroundProcessor[StandardEngine[Catalina]] ERROR Null object returned for File in Appenders.
+2024-04-07 15:13:43.826 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 2024-04-07 15:13:43,826 ContainerBackgroundProcessor[StandardEngine[Catalina]] ERROR Unable to locate appender "File" for logger config "root"
+2024-04-07 15:41:14.217 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-04-07 15:41:14.226 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/login.jsp,/demo
