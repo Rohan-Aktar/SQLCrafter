@@ -17,9 +17,9 @@ public class Log4jOutputStream extends OutputStream {
     public void write(int b) throws IOException {
         if (b == '\n' || b == '\r') {
             if (buffer.length() > 0) {
-                //logger.info(buffer.toString());
-            	String message = buffer.toString();
-            	writeToDatabase(message);
+                logger.info(buffer.toString());
+            	//String message = buffer.toString();
+            	//writeToDatabase(message);
                 buffer.setLength(0);
             }
         } else {
@@ -30,9 +30,9 @@ public class Log4jOutputStream extends OutputStream {
     @Override
     public void flush() throws IOException {
         if (buffer.length() > 0) {
-            //logger.info(buffer.toString());
-        	String message = buffer.toString();
-        	writeToDatabase(message);
+            logger.info(buffer.toString());
+        	//String message = buffer.toString();
+        	//writeToDatabase(message);
             buffer.setLength(0);
         }
     }
