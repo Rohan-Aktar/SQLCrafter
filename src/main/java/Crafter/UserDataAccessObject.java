@@ -11,7 +11,7 @@ public class UserDataAccessObject {
 
     public UserDataAccessObject() {
         // Initialize database connection
-        this.connection = DBConnectionClass.getConnectionTSQL();
+        this.connection = DBConnectionClass.getConnection();
         
         // Set Log4jOutputStream as the standard output stream
         //Log4jOutputStream log4jOutputStream = new Log4jOutputStream();

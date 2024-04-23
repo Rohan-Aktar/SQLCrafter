@@ -154,3 +154,936 @@
 2024-04-07 15:13:43.826 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - 2024-04-07 15:13:43,826 ContainerBackgroundProcessor[StandardEngine[Catalina]] ERROR Unable to locate appender "File" for logger config "root"
 2024-04-07 15:41:14.217 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
 2024-04-07 15:41:14.226 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/login.jsp,/demo
+2024-04-23 21:37:54.526 [localhost-startStop-1] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-04-23 21:37:54.535 [localhost-startStop-1] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/login.jsp,/demo
+2024-04-23 21:38:05.456 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-04-23 21:38:05.464 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/login.jsp,/demo
+2024-04-23 21:53:36.707 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.708 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 21:53:36.709 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.737 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.737 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.737 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.752 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.753 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.753 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.780 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.780 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.781 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.797 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.812 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.812 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.815 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.815 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.815 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.818 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.818 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.818 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.824 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.824 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.824 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.829 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.829 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.830 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.834 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.834 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.834 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.846 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.846 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.846 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.849 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.849 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.849 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.852 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.852 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.852 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.857 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.857 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.857 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.860 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.860 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.860 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.863 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.863 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.863 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.865 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.865 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.866 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.869 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.870 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.870 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.873 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.873 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.873 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.875 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.876 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.876 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:36.878 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:36.878 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:36.878 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 21:53:38.375 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-04-23 21:53:38.376 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 21:53:38.376 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 21:53:38.711 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.711 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 21:53:38.711 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.717 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.717 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.717 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.737 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.737 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.737 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.747 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.748 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.748 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.752 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.752 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.752 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.767 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.767 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.767 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.770 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.770 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.771 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.777 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.777 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.777 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.779 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.779 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.780 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.782 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.782 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.782 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.785 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.785 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.785 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.788 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.788 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.788 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.790 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.790 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.790 [http-nio-8080-exec-15] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.793 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.793 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.793 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.796 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.796 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.796 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.799 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.799 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.799 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.803 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.803 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.803 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.807 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.807 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.808 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.810 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.810 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.810 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.813 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.813 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.813 [http-nio-8080-exec-12] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:38.815 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:38.816 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 21:53:38.816 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 21:53:40.007 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-04-23 21:53:40.008 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:53:40.008 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 21:53:40.008 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 21:53:40.015 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connecting to Azure T-SQL DB...
+2024-04-23 21:53:54.747 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Error Connecting to Azure T-SQL DB...
+2024-04-23 21:53:54.749 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Connected to Azure T-SQL DB...
+2024-04-23 21:53:54.749 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 21:53:54.749 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 21:53:54.749 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 21:53:54.749 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 21:53:54.749 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - java.lang.NullPointerException
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at Crafter.UserDataAccessObject.getUserByUsernameAndPassword(UserDataAccessObject.java:33)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at Crafter.LoginController.doPost(LoginController.java:43)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:515)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.doFilter(SessionFilter.java:85)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-04-23 21:53:54.750 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+2024-04-23 21:53:54.751 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:934)
+2024-04-23 21:53:54.752 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1698)
+2024-04-23 21:53:54.752 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+2024-04-23 21:53:54.752 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+2024-04-23 21:53:54.752 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+2024-04-23 21:53:54.752 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+2024-04-23 21:53:54.752 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-04-23 21:54:22.601 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 21:54:22.602 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 21:54:22.603 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 21:54:22.603 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Connecting to Azure T-SQL DB...
+2024-04-23 21:54:36.688 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Error Connecting to Azure T-SQL DB...
+2024-04-23 21:54:36.689 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Connected to Azure T-SQL DB...
+2024-04-23 21:54:36.689 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 21:54:36.689 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 21:54:36.689 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - java.lang.NullPointerException
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at Crafter.UserDataAccessObject.getUserByUsernameAndPassword(UserDataAccessObject.java:33)
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at Crafter.LoginController.doPost(LoginController.java:43)
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:515)
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+2024-04-23 21:54:36.690 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.doFilter(SessionFilter.java:85)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:934)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1698)
+2024-04-23 21:54:36.691 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+2024-04-23 21:54:36.692 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+2024-04-23 21:54:36.692 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+2024-04-23 21:54:36.692 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+2024-04-23 21:54:36.692 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-04-23 22:35:13.774 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... init 
+2024-04-23 22:35:13.785 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] INFO  Crafter.Log4jOutputStream - SessionFilter... excludedUrls:: /login,/login.jsp,/demo
+2024-04-23 22:37:15.698 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.698 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 22:37:15.698 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.706 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.706 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.706 [http-nio-8080-exec-13] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.731 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.731 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.731 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.742 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.742 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.742 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.751 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.752 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.752 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.757 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.757 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.757 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.783 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.783 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.783 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.787 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.787 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.787 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.790 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.790 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.790 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.794 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.794 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.794 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.797 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.797 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.797 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.800 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.800 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.800 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.803 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.803 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.803 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.808 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.808 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.808 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.815 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.815 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.815 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.818 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.818 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.818 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.821 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.821 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.821 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.824 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.824 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.824 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.827 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.827 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.827 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.830 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.830 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.830 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:15.832 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:15.833 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:15.833 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 22:37:17.315 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-04-23 22:37:17.316 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 22:37:17.316 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 22:37:17.467 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.467 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 22:37:17.467 [http-nio-8080-exec-17] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.514 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.514 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.514 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.550 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.550 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.550 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.584 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.584 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.584 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.601 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.601 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.601 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.618 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.618 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.618 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.628 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.628 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.628 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.640 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.640 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.641 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.664 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.664 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.664 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.673 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.673 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.673 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.679 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.679 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.680 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.682 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.682 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.682 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.684 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.684 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.685 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.687 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.687 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.687 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.690 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.690 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.690 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.692 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.692 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.693 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.694 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.695 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.695 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.697 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.697 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.697 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.699 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.699 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.699 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.701 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.701 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.701 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:17.703 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:17.703 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:17.703 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.140 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: null
+2024-04-23 22:37:18.140 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 22:37:18.140 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 22:37:18.271 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.271 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 22:37:18.271 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.325 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.325 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.325 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.357 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.357 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.357 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.393 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.393 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.393 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.422 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.422 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.422 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.432 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.432 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.432 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.452 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.452 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.452 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.467 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.467 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.467 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.471 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.471 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.471 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.473 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.474 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.474 [http-nio-8080-exec-14] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.478 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.478 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.478 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.481 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.482 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.482 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.485 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.485 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.485 [http-nio-8080-exec-19] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.488 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.488 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.488 [http-nio-8080-exec-11] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.492 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.492 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.492 [http-nio-8080-exec-18] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.494 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.494 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.494 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.497 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.497 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.497 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.499 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.500 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.500 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.502 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.502 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.502 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.504 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.504 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.504 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:18.507 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:18.507 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 22:37:18.507 [http-nio-8080-exec-16] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 22:37:19.254 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - LoginController().. 
+2024-04-23 22:37:19.254 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 22:37:19.254 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 22:37:19.254 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 22:37:19.258 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-23 22:38:34.594 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Error Connecting to MySQL DB...
+2024-04-23 22:38:34.595 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-23 22:38:34.595 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - java.lang.NullPointerException
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at Crafter.UserDataAccessObject.getUserByUsernameAndPassword(UserDataAccessObject.java:33)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at Crafter.LoginController.doPost(LoginController.java:43)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:515)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:583)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:212)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at Crafter.SessionFilter.doFilter(SessionFilter.java:85)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:181)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:156)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+2024-04-23 22:38:34.596 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:679)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:617)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:934)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1698)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+2024-04-23 22:38:34.597 [http-nio-8080-exec-20] INFO  Crafter.Log4jOutputStream - 	at java.lang.Thread.run(Thread.java:750)
+2024-04-23 23:34:23.258 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.262 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 23:34:23.263 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.275 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.276 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.276 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.314 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.314 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.314 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.333 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.333 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.333 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.362 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.362 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.362 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.385 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.386 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.386 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.459 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.459 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.459 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.475 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.476 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.476 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.489 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.490 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.490 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.497 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.497 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.497 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.507 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.507 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.507 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.515 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.515 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.515 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.522 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.523 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.523 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.530 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.531 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.531 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.537 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.537 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.537 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.542 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.542 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.542 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.547 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.547 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.547 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.551 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.551 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.551 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.556 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.556 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.556 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.560 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.560 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.560 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:23.564 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:23.565 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:23.565 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist!! redirecting to login.jsp
+2024-04-23 23:34:24.197 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:24.197 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 23:34:24.197 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:24.199 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-23 23:34:24.907 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-23 23:34:24.907 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 23:34:24.907 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 23:34:24.907 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 23:34:24.907 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 23:34:25.008 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - LoginController()..  User Invalidated, returning to login...
+2024-04-23 23:34:25.012 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp
+2024-04-23 23:34:25.012 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 23:34:25.012 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:25.358 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.358 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 23:34:25.358 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.366 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.366 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.366 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.415 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.415 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.416 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.443 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.444 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.444 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.465 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.465 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.465 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.478 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.478 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.478 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.530 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.530 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.530 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.545 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.545 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.545 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.551 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.552 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.553 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.557 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.557 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.557 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.561 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.561 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.561 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.564 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.565 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.565 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.568 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.568 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.568 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.573 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.573 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.573 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.577 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.577 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.577 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.581 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.583 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.583 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.587 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.587 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.587 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.592 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.592 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.593 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.597 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.597 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.597 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.601 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.601 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.601 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:25.606 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:25.606 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:25.606 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:27.227 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:27.227 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 23:34:27.227 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:27.227 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-23 23:34:27.727 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-23 23:34:27.727 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 23:34:27.727 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 23:34:27.727 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 23:34:27.727 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 23:34:27.778 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - LoginController()..  User Invalidated, returning to login...
+2024-04-23 23:34:27.783 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:27.783 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 23:34:27.783 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:28.032 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.032 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 23:34:28.032 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.083 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.083 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.083 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.105 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.105 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.105 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.122 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.122 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.122 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.146 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.146 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.146 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.154 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.154 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.155 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.165 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.165 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.165 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.194 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.194 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.194 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.213 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.213 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.213 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.220 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.220 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.220 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.224 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.224 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.224 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.227 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.227 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.227 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.231 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.231 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.231 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.234 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.234 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.234 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.239 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.239 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.239 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.243 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.243 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.243 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.247 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.247 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.247 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.250 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.250 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.250 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.254 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.254 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.254 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.257 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.258 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.258 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:28.262 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:28.262 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:28.262 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:54.673 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:54.674 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 23:34:54.674 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:54.674 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-23 23:34:55.119 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-23 23:34:55.119 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 23:34:55.119 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 23:34:55.119 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 23:34:55.119 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 23:34:55.179 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - LoginController()..  User Invalidated, returning to login...
+2024-04-23 23:34:55.185 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.185 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 23:34:55.185 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:55.524 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.524 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 23:34:55.524 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.542 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.542 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.542 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.550 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.550 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.550 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.584 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.585 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.585 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.599 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.599 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.599 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.605 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.606 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.606 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.628 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.628 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.628 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.646 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.646 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.646 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.661 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.661 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.662 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.669 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.669 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.670 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.678 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.679 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.679 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.683 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.683 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.683 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.687 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.687 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.687 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.692 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.692 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.692 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.696 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.696 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.696 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.700 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.701 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.701 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.705 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.706 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.706 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.709 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.709 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.709 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.713 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.713 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.713 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.716 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.716 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.716 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:55.719 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:55.719 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:55.719 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:56.698 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:56.698 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 23:34:56.698 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:56.698 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-23 23:34:57.074 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-23 23:34:57.075 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 23:34:57.075 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 23:34:57.075 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 23:34:57.075 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 23:34:57.123 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - LoginController()..  User Invalidated, returning to login...
+2024-04-23 23:34:57.130 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.131 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 23:34:57.131 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:34:57.369 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.370 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 23:34:57.370 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.420 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.420 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.420 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.467 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.467 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.467 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.483 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.483 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.484 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.502 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.503 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.503 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.524 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.524 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.524 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.533 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.533 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.533 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.545 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.545 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.545 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.566 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.566 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.566 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.577 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.577 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.577 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.586 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.586 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.587 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.594 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.594 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.594 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.598 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.598 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.599 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.602 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.602 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.602 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.612 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.612 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.612 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.615 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.615 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.615 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.618 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.618 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.618 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.621 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.621 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.621 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.625 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.625 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.625 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.627 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.628 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.628 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:34:57.630 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:34:57.630 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:34:57.630 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:02.645 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:02.645 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-23 23:35:02.645 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:35:02.645 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-23 23:35:03.096 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-23 23:35:03.096 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-23 23:35:03.096 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-23 23:35:03.096 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-23 23:35:03.096 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-23 23:35:03.147 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - LoginController()..  User Invalidated, returning to login...
+2024-04-23 23:35:03.152 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.152 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login.jsp
+2024-04-23 23:35:03.153 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-23 23:35:03.339 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.340 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-23 23:35:03.340 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.409 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.409 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.409 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.452 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.452 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.452 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.511 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.511 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.511 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.599 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.599 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.600 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.608 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.608 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.608 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.675 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.675 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.676 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.696 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.696 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.696 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.713 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.714 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.714 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.744 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.744 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.744 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.761 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.761 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.761 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.769 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.769 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.769 [http-nio-8080-exec-29] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.772 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.772 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.772 [http-nio-8080-exec-30] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.776 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.776 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.776 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.782 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.782 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.782 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.786 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.786 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.786 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.800 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.800 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.800 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.813 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.813 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.813 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.816 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.816 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.816 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.819 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.819 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.819 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-23 23:35:03.823 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-23 23:35:03.823 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/login.jsp
+2024-04-23 23:35:03.823 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter....  session doesn't exist <222> !! redirecting to login.jsp
+2024-04-24 00:19:18.415 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-24 00:19:18.419 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/login
+2024-04-24 00:19:18.420 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - excluded url from doFilter()
+2024-04-24 00:19:18.422 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-24 00:19:19.105 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-24 00:19:19.105 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Inside UserDataAccessObject() ...
+2024-04-24 00:19:19.105 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - Inside getUserByUsernameAndPassword() ...
+2024-04-24 00:19:19.106 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - username:  GUEST
+2024-04-24 00:19:19.106 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - password:  GUEST123
+2024-04-24 00:19:19.173 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - in UserModel()...
+2024-04-24 00:19:19.175 [http-nio-8080-exec-22] INFO  Crafter.Log4jOutputStream - LoginController()..  User Validated, Creating Session...
+2024-04-24 00:19:19.192 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/login.jsp?error=invalid
+2024-04-24 00:19:19.192 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/home.jsp
+2024-04-24 00:19:19.192 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-24 00:19:19.217 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - INSIDE HOME.JSP
+2024-04-24 00:19:19.240 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - INSIDE header.JSP
+2024-04-24 00:19:19.240 [http-nio-8080-exec-21] INFO  Crafter.Log4jOutputStream - Inside header.jsp User:::GUEST
+2024-04-24 00:19:19.977 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-24 00:19:19.977 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/logo.png
+2024-04-24 00:19:19.977 [http-nio-8080-exec-23] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-24 00:19:20.046 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-24 00:19:20.047 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/databaseInfo
+2024-04-24 00:19:20.047 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-24 00:19:20.047 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - Connecting to MySQL DB...
+2024-04-24 00:19:21.609 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - Connected to MySQL DB...
+2024-04-24 00:19:23.616 [http-nio-8080-exec-24] INFO  Crafter.Log4jOutputStream - jsonResponse:: ["crafter","information_schema","mysql","performance_schema","sys"]
+2024-04-24 00:19:23.635 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-24 00:19:23.635 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/table.png
+2024-04-24 00:19:23.635 [http-nio-8080-exec-25] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-24 00:19:23.643 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-24 00:19:23.643 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/delete2.png
+2024-04-24 00:19:23.644 [http-nio-8080-exec-27] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-24 00:19:23.647 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-24 00:19:23.647 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/reload.png
+2024-04-24 00:19:23.647 [http-nio-8080-exec-26] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
+2024-04-24 00:19:23.648 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  referer:: http://localhost:8080/SQLCrafter/home.jsp
+2024-04-24 00:19:23.648 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  httpRequest.getRequestURI():: /SQLCrafter/resources/images/search.png
+2024-04-24 00:19:23.648 [http-nio-8080-exec-28] INFO  Crafter.Log4jOutputStream - SessionFilter...  session exists username:: GUEST
