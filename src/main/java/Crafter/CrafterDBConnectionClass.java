@@ -8,13 +8,14 @@ import java.sql.SQLException;
 public class CrafterDBConnectionClass {
     
     // MySQL Connection details
-    private static final String MYSQL_HOST = "crafter-mysql.mysql.database.azure.com";
+    //private static final String MYSQL_HOST = "crafter-mysql.mysql.database.azure.com";
+	private static final String MYSQL_HOST = "localhost";
     private static final int MYSQL_PORT = 3306;
     private static final String MYSQL_DATABASE = "Crafter";
     private static final String MYSQL_JDBC_URL = "jdbc:mysql://" + MYSQL_HOST + ":" + MYSQL_PORT + "/" + MYSQL_DATABASE;
     private static final String MYSQL_JDBC_URL2 = "jdbc:mysql://" + MYSQL_HOST + ":" + MYSQL_PORT;
-    private static final String MYSQL_USERNAME = "dootam";
-    private static final String MYSQL_PASSWORD = "Rocketman123";
+    private static final String MYSQL_USERNAME = "root";
+    private static final String MYSQL_PASSWORD = "rocketman123";
 
     // Azure T-SQL Connection details
     private static final String TSQL_HOST = "crafter-server.database.windows.net";

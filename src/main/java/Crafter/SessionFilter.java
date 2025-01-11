@@ -26,9 +26,9 @@ public class SessionFilter implements Filter {
 	public void init(FilterConfig filterConfig) throws ServletException {
 	    try {
 	        // Initialisation code here
-	        Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
+	        //Log4jOutputStream log4jOutputStream = new Log4jOutputStream();
 	        // Set Log4jOutputStream as the standard output stream
-	        System.setOut(new PrintStream(log4jOutputStream, true));
+	        //System.setOut(new PrintStream(log4jOutputStream, true));
 	        
 	        System.out.println("SessionFilter... init ");
 	        
