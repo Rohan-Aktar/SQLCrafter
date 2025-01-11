@@ -3,6 +3,14 @@
 [![Java CI with Maven](https://github.com/dootamroy/SQLCrafter/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/dootamroy/SQLCrafter/actions/workflows/maven.yml)
 [![Build and deploy WAR app to Azure Web App - Crafter](https://github.com/dootamroy/SQLCrafter/actions/workflows/main_crafter.yml/badge.svg)](https://github.com/dootamroy/SQLCrafter/actions/workflows/main_crafter.yml)
 
+<img width="1440" alt="Screenshot 2025-01-12 at 12 25 32 AM" src="https://github.com/user-attachments/assets/3cd9e368-81b9-4945-b842-8840d58f5154" />
+<img width="1440" alt="Screenshot 2025-01-12 at 12 25 42 AM" src="https://github.com/user-attachments/assets/f43b792b-f285-4968-9690-b41ec77002b8" />
+<img width="1440" alt="Screenshot 2025-01-12 at 12 31 48 AM" src="https://github.com/user-attachments/assets/96d78ba5-c627-423a-9d06-e2a1817eea78" />
+<img width="1440" alt="Screenshot 2025-01-12 at 12 31 54 AM" src="https://github.com/user-attachments/assets/af12612d-d719-4ae3-8b11-fe01b1cb7a8e" />
+<img width="1440" alt="Screenshot 2025-01-12 at 12 32 02 AM" src="https://github.com/user-attachments/assets/8b7f0e42-56e5-4ddb-a4d6-86b2e120dc31" />
+
+
+
 
 ## About SQLCrafter
 
